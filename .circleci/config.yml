@@ -26,7 +26,7 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - run: bundle exec jekyll build
       - persist_to_workspace:
-          root: workspace
+          root: /home/circleci/repo
           paths:
             - echo-output
   test_html:
