@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="refresh" content="0; url={{ page.destination }}" />
+  <script type="text/javascript">
+    window.location.href = "{{ page.destination }}"
+  </script>
+  {% include ga.html %}
+  <title>Redirecting...</title>
+</head>
+<body>
+  Redirecting to {{ page.destination }}. If it doesn't load, click <a href="{{ page.destination }}">here</a>.
+</body>
+</html>

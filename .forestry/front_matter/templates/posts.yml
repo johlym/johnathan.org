@@ -1,0 +1,34 @@
+---
+pages:
+- _posts/test.md
+- _posts/2018-05-08-easy-redirect-links-within-jekyll.md
+- _posts/2018-05-07-an-auto-deploying-static-site-with-backend.md
+- _posts/2018-04-26-yet-another-re-design.md
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  default: post
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: textarea
+  label: Excerpt
+  name: excerpt
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: tag_list
+  name: category
+  label: Category
+- type: tag_list
+  name: tags
+  label: Tags

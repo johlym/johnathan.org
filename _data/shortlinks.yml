@@ -1,0 +1,13 @@
+---
+- title: Molekule
+  key: molekule
+  destination: http://share.molekule.com/x/CfhpIk
+- title: Let's Encrypt
+  key: letsencrypt
+  destination: https://letsencrypt.org
+- title: Digital Ocean
+  key: digitalocean
+  destination: https://m.do.co/c/b3e840db07ba
+- title: DNSimple
+  key: dnsimple
+  destination: https://dnsimple.com/r/6ff1f3d051979b

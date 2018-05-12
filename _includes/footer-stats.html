@@ -1,0 +1,7 @@
+Posts: {{ site.posts | size }} <br />
+Words: {% assign total = 0 %}
+{% for post in site.posts %}
+{% capture words %}{{ post.content | number_of_words }}{% endcapture %}
+{% assign total = total | plus: words %}
+{% endfor %}
+{{ total }}

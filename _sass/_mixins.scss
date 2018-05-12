@@ -1,0 +1,41 @@
+@mixin standardlink {
+  color: #444;
+  text-decoration: none;
+  background: linear-gradient(to bottom, transparent 0%, transparent 25%, #91e5ff 25%, #91e5ff 75%, transparent 75%);
+  &:hover {
+    background: #91e5ff;
+  }
+}
+
+@mixin archivelink {
+  color: #91e5ff;
+  text-decoration: none;
+}
+
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+ 
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+@mixin globalposition {
+  max-width: 700px;
+  margin: 0 auto;
+
+  @include respond-to('mobile') {
+    margin: 0 12px;
+  }
+  padding: 12px;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}

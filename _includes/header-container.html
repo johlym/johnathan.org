@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="site-title">
+    <span class="title-link">
+      <a href="/">johnathan.org/</a> 
+    </span>
+  </div>
+  <div class="navigation">
+    <ul class="menu">
+      {% for item in site.menus.header %}
+      <li class="menu-item menu-item-{{ item.identifier }}">
+        <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+      </li>
+      {% endfor %} 
+    </ul>
+  </div>
+  <div class="headshot">
+    <img src="/assets/images/headshot_2x.jpg" alt="Johnathan">
+  </div>
+</div>

@@ -1,0 +1,30 @@
+---
+- title: Marco Arment
+  url: https://marco.org
+  protocol: https
+- title: Casey Liss
+  url: http://caseyliss.com
+- title: Jason Kottke
+  url: https://kottke.org
+  protocol: https
+- title: Micro.blog
+  url: https://micro.blog
+  protocol: https
+- title: Julia Evans
+  url: https://jvns.ca
+  protocol: https
+- title: Forestry.io
+  url: https://forestry.io
+  protocol: https
+- title: Digital Ocean
+  url: https://johnathan.org/goto/digitalocean
+  protocol: https
+- title: DNSimple
+  url: https://dnsimple.com
+  protocol: https
+- title: Let's Encrypt
+  url: https://letsencrypt.com
+  protocol: https
+- title: Daring Fireball
+  url: https://daringfireball.net
+  protocol: https

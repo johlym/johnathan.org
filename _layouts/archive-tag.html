@@ -1,0 +1,30 @@
+{% assign post_count = page.posts | size %}
+{% capture archive_window %}
+{{ post_count }} {% if post_count==1 %}post{% else %}posts{% endif %} relating to {{ page.title }}
+{% endcapture %}
+<!DOCTYPE html>
+<html lang="en">
+{% include header-html.html archive_title=archive_window %}
+<body>
+  <div class="container">
+  {% include header-container.html %}
+  <div class="main">
+      <!-- This loops through the paginated posts -->
+    <article class="post">
+        <h1 class="post-title">
+            More Posts
+        </h1>
+        <div class="excerpt">{{ archive_window }}</div>
+        <div class="content">
+        {% for post in page.posts %}
+          <ul>
+            <li>{{ post.date | date: "%B %d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+          </ul>
+        {% endfor %}
+        </div>
+      </article>
+  </div>
+    </div>
+  {% include footer.html %}
+</body>
+</html>

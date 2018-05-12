@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header-html.html %}
+<body>
+  <div class="container">
+  {% include header-container.html %}
+  <div class="main">
+      <article class="post">
+        <h1 class="post-title"><a href="{{ post.url }}">{{ page.title }}</a></h1>
+        {% if page.excerpt %}
+        <div class="excerpt">{{ page.excerpt }}</div>
+        {% endif %}
+        <span class="author">
+            <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+        </span>
+        <div class="content">
+        {{ page.content }}
+        <div class="follow-up buy-coffee">
+          <h4>You've finished reading, now what?</h4>
+          <p>If you've made it this far, thanks! Your eyeballs mean a lot to me. If this post was something less than an entire waste of time, consider buying me a coffee. Caffeine is the life blood of my people and without it, we will perish. <small>/s</small></p>
+         <a href="https://www.buymeacoffee.com/johnathan" class="btn" target="_blank"><i class="fas fa-coffee"></i> Buy me a coffee</a>
+        </div>
+        {% assign post_date = page.date | date: "%s" %}
+        {% assign oneyear = page.date | date: "%s" | plus: 31536000 | date: "%s" %}
+        {% assign current_time = site.time | date: "%s" %}
+        {% assign age = current_time | minus: post_date | divided_by: 86400 %}
+        {% if current_time > oneyear %}
+        <div class="follow-up notice">
+          <h4>Something incorrect?</h4>
+
+          <h5>This article is over a year old, that's entirely possible.</h5>
+          <p>
+            I've made many changes to this site over the last few years and sometimes things get missed when I sweep for updates. I wrote this post <strong>{{ age }}</strong> days ago and might need updating or we're in a situation where I've explained something that is no longer accurate. If you found something incorrect or needs refreshing, <a href="/about.html">let me know</a> and I'll get it fixed.
+          </p>
+        </div>
+        {% endif %}
+        </div>
+        <span class="tags">
+        {% if page.categories.size > 0 %}
+          {% assign cat_list = page.categories | sort %}
+          filed under: 
+          {% for category in cat_list %}
+          {% if forloop.last %}<a href="/category/{{ category | downcase }}.html" class="tag">{{ category }}</a>
+          {% else %}<a href="/category/{{ category | downcase }}.html" class="tag last">{{ category }}</a>&nbsp;/&nbsp;
+          {% endif %}
+          {% endfor %} 
+        {% endif %}
+        </span><br />
+        <span class="tags">
+        {% if page.tags.size > 0 %}
+          {% assign cat_list = page.tags | sort %}
+          more about: 
+          {% for tag in cat_list %}
+          <a href="/tag/{{ tag | slugify }}.html" class="tag">{% if forloop.last %}{{ tag }}</a>{% else %}{{ tag }}</a>&nbsp;/&nbsp;{% endif %}
+          {% endfor %} 
+        {% endif %}
+        </span>
+      </article>
+      <div class="footer-things">
+        <div class="about-the-author footer-thing">
+          <h4>About the Author</h4>
+          <p>Johnathan is a Seattle developer, blogger, and simulated farmer. He enjoys long walks on the beach and coffee. He keeps track of the books he reads <a href="/reads.html">here</a>.</p>
+        </div>
+        <div class="related footer-thing">
+          {% unless page.tag == null %}
+            {{ page.tags }}
+          {% endunless %}  
+        </div>
+      </div>
+      
+      <div class="pagination">
+
+        <div class="newer">
+          {% if page.previous.url %}
+          <i class="fas fa-arrow-left"></i> <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+          {% endif %}
+        </div>
+
+        <div class="older">
+          {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">{{page.next.title}}</a> <i class="fas fa-arrow-right"></i> 
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  {% include footer.html %}
+</body>
+</html>

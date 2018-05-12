@@ -1,0 +1,49 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+       - image: circleci/ruby:2.5.1
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
+            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
+
+      - checkout
+
+      - run: sudo apt install rsync
+
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+        
+      # Jekyll Build
+      - run: bundle exec jekyll build
+
+      # Check site contents
+      - run: bundle exec htmlproofer ./_site --check-html --disable-external --empty_alt_ignore
+
+      # Check validity of external links
+      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429"--url-ignore "/amazon.com/,/www.amazon.com/"
+
+      # Deploy
+      - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi

@@ -1,0 +1,83 @@
+title: Johnathan.org
+description: >- # this means to ignore newlines until "baseurl:"
+  On technology and an amalgamation of random thoughts.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:title.html
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num.html'
+  title: 'Page :num of :title'
+  sort_field: 'date'
+  sort_reverse: true
+
+about:
+  name: Johnathan Lyman
+  email: email@johnathan.org
+  headshot: /assets/images/headshot_2x.jpg
+  twitter: _johlym
+  github: johlym
+
+api_keys:
+  uptime_io:
+    r_o: ro-aNa87VGVKAjK8d9qa8Dk
+
+excerpt_separator: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+jekyll-archives:
+  enabled: 
+    - year
+    - month
+    - tags
+    - categories
+  layouts:
+    year: archive-year
+    month: archive-month
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/archives/:year.html'
+    month: '/archives/:year/:month.html'
+    tag: '/tag/:name.html'
+    category: '/category/:name.html'
+
+page_gen:
+  - data: shortlinks
+    template: redirect
+    name: key
+    dir: goto
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-gist
+  - jekyll-twitter-plugin
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-menus
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
