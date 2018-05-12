@@ -3,9 +3,8 @@
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
 version: 2
-jobs:
-  build:
-    docker:
+defaults: &defaults
+  docker:
     - image: circleci/ruby:2.5.1
     working_directory: ~/repo
     steps:
@@ -22,17 +21,19 @@ jobs:
           paths:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run: bundle exec jekyll build
-  test_html:
-    docker:
-    - image: circleci/ruby:2.5.1
-    working_directory: ~/repo
+jobs:
+  build:
+    <<: defaults
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
-            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
-      - checkout
+      - run: bundle exec jekyll build
+      - persist_to_workspace:
+          root: workspace
+          paths:
+            - echo-output
+  test_html:
+    steps:
+      - attach_workspace:
+          at: ~/repo/workspace
       - run: sudo apt install rsync
       - run:
           name: install dependencies
@@ -44,43 +45,15 @@ jobs:
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer ./_site --check-html --disable-external --empty_alt_ignore
   test_links:
-    docker:
-    - image: circleci/ruby:2.5.1
-    working_directory: ~/repo
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
-            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
-      - checkout
-      - run: sudo apt install rsync
-      - run:
-          name: install dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - save_cache:
-          paths:
-            - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - attach_workspace:
+          at: ~/repo/workspace
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
   deploy:
-    docker:
-       - image: circleci/ruby:2.5.1
-    working_directory: ~/repo
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
-            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
-      - checkout
-      - run: sudo apt install rsync
-      - run:
-          name: install dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - save_cache:
-          paths:
-            - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - attach_workspace:
+          at: ~/repo/workspace
       - run: bundle exec jekyll build
       - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi
 workflows:
