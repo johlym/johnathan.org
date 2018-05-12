@@ -24,12 +24,10 @@ A few of my favorites from his list:
 5.  [In a Nutshell][6] – while not technically on the list, this YouTube channel put together by some german graphic artists covers a wide array of topics in a way anyone can understand, with awesome visuals.
 6.  [C.G.P. Grey][7] – also not technically on the list, however as an educational YouTube resource, Grey tops that list, if there is one.
 
-[Check out][8] the rest of Thomas’ [list][9] if you’re curious. I recommend you check out every link he listed.
+~~Check out the rest of Thomas’ list if you’re curious. I recommend you check out every link he listed.~~
 
 [3]: https://www.coursera.org/
 [4]: http://www.investopedia.com/
 [5]: http://mentalfloss.com/
 [6]: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
 [7]: https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w
-[8]: https://medium.com/keep-learning-keep-growing/33-websites-that-will-make-you-a-genius-53c5114c1d3d
-[9]: https://medium.com/keep-learning-keep-growing/33-websites-that-will-make-you-a-genius-53c5114c1d3d
