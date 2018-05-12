@@ -54,12 +54,13 @@ jobs:
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
   deploy:
+    <<: *defaults
     steps:
       - attach_workspace:
           at: ~/repo/workspace
       - run: bundle exec jekyll build
       - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi
-      
+
 workflows:
   version: 2
   build_test_deploy:
