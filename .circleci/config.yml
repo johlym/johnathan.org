@@ -14,8 +14,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
-            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
+            - "69:fe:2c:df:c8:34:c5:e6:3f:6e:18:64:43:97:58:02"
       - checkout
       - run: sudo apt install rsync
       - run:
