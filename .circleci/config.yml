@@ -34,6 +34,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
       - run: bundle exec jekyll build
   test_html:
@@ -41,6 +44,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
       - run: bundle exec htmlproofer ./_site --check-html --disable-external --empty_alt_ignore
   test_links:
@@ -48,6 +54,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
       - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
   deploy:
@@ -55,6 +64,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
+      - restore_cache:
+          keys:
+            - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
       - run: sudo apt install rsync
       - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi
