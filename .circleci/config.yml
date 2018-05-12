@@ -32,6 +32,7 @@ jobs:
   build_site:
     <<: *defaults
     steps:
+      - checkout
       - attach_workspace:
           at: ~/repo
       - restore_cache:
@@ -42,6 +43,7 @@ jobs:
   test_html:
     <<: *defaults
     steps:
+      - checkout
       - attach_workspace:
           at: ~/repo
       - restore_cache:
@@ -52,6 +54,7 @@ jobs:
   test_links:
     <<: *defaults
     steps:
+      - checkout
       - attach_workspace:
           at: ~/repo
       - restore_cache:
@@ -62,6 +65,7 @@ jobs:
   deploy:
     <<: *defaults
     steps:
+      - checkout
       - attach_workspace:
           at: ~/repo
       - restore_cache:
