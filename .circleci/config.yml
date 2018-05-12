@@ -2,7 +2,6 @@
 #
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
-version: 2
 defaults: &defaults
   docker:
     - image: circleci/ruby:2.5.1
@@ -21,9 +20,11 @@ defaults: &defaults
         paths:
           - ./vendor/bundle
         key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+version: 2
 jobs:
   build:
-    <<: defaults
+    <<: *defaults
     steps:
       - run: bundle exec jekyll build
       - persist_to_workspace:
@@ -31,6 +32,7 @@ jobs:
           paths:
             - echo-output
   test_html:
+    <<: *defaults
     steps:
       - attach_workspace:
           at: ~/repo/workspace
@@ -45,6 +47,7 @@ jobs:
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer ./_site --check-html --disable-external --empty_alt_ignore
   test_links:
+    <<: *defaults
     steps:
       - attach_workspace:
           at: ~/repo/workspace
@@ -56,6 +59,7 @@ jobs:
           at: ~/repo/workspace
       - run: bundle exec jekyll build
       - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi
+      
 workflows:
   version: 2
   build_test_deploy:
