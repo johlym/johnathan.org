@@ -43,7 +43,7 @@ jobs:
       - run: bundle exec htmlproofer ./_site --check-html --disable-external --empty_alt_ignore
 
       # Check validity of external links
-      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429"--url-ignore "/amazon.com/,/www.amazon.com/"
+      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
 
       # Deploy
       - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ./_site deploy@johnathan.org:/var/www/johnathan.org/static; fi
