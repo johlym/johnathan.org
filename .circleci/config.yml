@@ -6,21 +6,21 @@ version: 2
 defaults: &defaults
   docker:
     - image: circleci/ruby:2.5.1
-    working_directory: ~/repo
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
-            - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
-      - checkout
-      - run: sudo apt install rsync
-      - run:
-          name: install dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - save_cache:
-          paths:
-            - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+  working_directory: ~/repo
+  steps:
+    - add_ssh_keys:
+        fingerprints:
+          - "45:9f:2d:61:c2:c9:5b:7d:28:63:26:23:8a:18:7f:71"
+          - "2c:05:5b:df:9a:77:79:f5:2c:65:56:85:92:76:f5:e1"
+    - checkout
+    - run: sudo apt install rsync
+    - run:
+        name: install dependencies
+        command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+    - save_cache:
+        paths:
+          - ./vendor/bundle
+        key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 jobs:
   build:
     <<: defaults
