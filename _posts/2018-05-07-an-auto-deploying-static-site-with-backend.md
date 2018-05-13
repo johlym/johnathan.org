@@ -47,7 +47,7 @@ Jekyll seemed like a no-brainer. Hugo was out of the question because I didn't w
 
 ### Circle CI
 
-[![](/assets/images/2018/05/07/circleci-sm@2x.jpg){: data-lightbox="image-3" srcset="/assets/images/2018/05/07/circleci-sm@2x.jpg 2x /assets/images/2018/05/07/circleci-sm.jpg 1x"}](/assets/images/2018/05/07/circleci.jpg)
+[![](/assets/images/2018/05/07/circleci-sm@2x.jpg){: data-lightbox="image-1" srcset="/assets/images/2018/05/07/circleci-sm@2x.jpg 2x /assets/images/2018/05/07/circleci-sm.jpg 1x"}](/assets/images/2018/05/07/circleci.jpg)
 
 Circle CI came late in the game. I was originally going to use Netlify to deploy and host my site but I didn't like how little control I had. Yes, it's free as in beer, but I didn't have any kind of insight as to the performance or overall control. Beyond that, deployment took longer than I wanted, primarily because it spends time at the final stages checking the HTML for forms it needs to process and understand. Given that I have over 300 pages--probably more than 400, actually--that was a non-starter. I'd probably use Netlify at work, but not for this project.
 
@@ -55,7 +55,7 @@ By having an CI tool at the ready, I could have it build the Jekyll-based site f
 
 ### Forestry.io
 
-[![](/assets/images/2018/05/07/forestry.io_editing_page-sm.jpg)](/assets/images/2018/05/07/forestry.io_editing_page.jpg){: data-lightbox="image-2"}
+[![](/assets/images/2018/05/07/forestry-sm@2x.jpg){: data-lightbox="image-2" srcset="/assets/images/2018/05/07/forestry-sm@2x.jpg 2x /assets/images/2018/05/07/forestry-sm.jpg 1x"}](/assets/images/2018/05/07/forestry.jpg)
 
 Forestry.io is a tool I never heard of until a few weeks ago. It syncs with the GitHub repo that stores my site and allows me to create posts and pages, manipulate front matter templates, and do some basic media uploading. It's not perfect, and on rare occasions it trips GitHub's API rate limiting, but it's been pretty solid overall. Support is good, and the free tier does exactly what I need it to, nothing more.
 
