@@ -47,7 +47,7 @@ Jekyll seemed like a no-brainer. Hugo was out of the question because I didn't w
 
 ### Circle CI
 
-[![](/assets/images/2018/05/07/circle_ci_page-sm.jpg)](/assets/images/2018/05/07/circle_ci_page.jpg){: data-lightbox="image-1"}
+[![](/assets/images/2018/05/07/circle_ci_page-sm.jpg)](/assets/images/2018/05/07/circle_ci_page.jpg){: data-lightbox="image-1"} 
 
 Circle CI came late in the game. I was originally going to use Netlify to deploy and host my site but I didn't like how little control I had. Yes, it's free as in beer, but I didn't have any kind of insight as to the performance or overall control. Beyond that, deployment took longer than I wanted, primarily because it spends time at the final stages checking the HTML for forms it needs to process and understand. Given that I have over 300 pages--probably more than 400, actually--that was a non-starter. I'd probably use Netlify at work, but not for this project.
 
