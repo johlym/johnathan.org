@@ -5,10 +5,10 @@
 @import 'variables';
 @import 'mixins';
 @import 'fonts';
-@import "fa/fontawesome";
+{% if jekyll.environment != "production" %}@import "fa/fontawesome";
 @import "fa/fa-brands";
 @import "fa/fa-regular";
-@import "fa/fa-solid";
+@import "fa/fa-solid";{% endif %}
 @import 'layout';
 @import 'components/alerts';
 @import 'components/lightbox';
