@@ -2,6 +2,7 @@
 id: 241
 title: 'Internet Arguments: Even Garbage Fires Can be Extinguished'
 date: 2016-04-05 06:18:09 +0000
+updateD: 2018-05-13 11:00:00 -0800
 author: Johnathan Lyman
 layout: post
 
@@ -23,7 +24,9 @@ Before I explain how to get out of this scenario on top, lets look at why this h
 
 Everyone has their opinion. Unfortunately, not everyone that has an opinion has made it on a well-informed foundation. Oh well, there’s nothing we can do about that. This, by itself isn’t a deal breaker as some are open to the idea of seeing the error in their judgement and conceding. That’s a debate, not an argument.
 
-[![The guy on the right is showing the guy on the left his opinion. The guy on the left doesn't care.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pointing-men-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pointing-men-960x640.jpg)The guy on the right is showing the guy on the left his opinion. The guy on the left doesn’t care.
+[![The guy on the right is showing the guy on the left his opinion. The guy on the left doesn't care.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pointing-men-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pointing-men-960x640.jpg)
+
+The guy on the right is showing the guy on the left his opinion. The guy on the left doesn’t care.
 
 It’s when these opinions become the heart and soul of a person, otherwise known as being closed-minded, if I may be so blunt. (Sure we could throw politics and religion in here and talk about this all night, but I really don’t want to write a million words on the topic, so we’ll keep those out and stay at a higher level.) Again, nothing inherently wrong with this. It’s all these quirks that add that unique flavor to our personalities, to our being. It helps describe who we are. Not even this closed-mindedness has anything to do with what I’m talking about.
 
@@ -35,7 +38,9 @@ See, here’s the thing. Something crazy happens when we mix polarizing topics,
 
 Social media gives a false sense of power and authority that what we’re saying is true. We have a tendency to propagate fear, anger, divisive ideals, and try to “get people on our side.” Depending on your political assignment, you might be [more likely][1] [to do so][2], but I couldn’t [find more than a few][3] [articles on this][4] that were from the last decade so the [five I’m linking][5] will have to do. I don’t want to get too deep into that as I’m not a doctor. That’s not my field of expertise (we’ll come back to the _expertise_ bit).
 
-[![Where we're going, there isn't going to be much enLIGHTenment... get it?](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-lightbulb-960x600.jpg?resize=525%2C328)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-lightbulb-960x600.jpg)Where we’re going, there isn’t going to be much enLIGHTenment… get it?
+[![Where we're going, there isn't going to be much enLIGHTenment... get it?](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-lightbulb-960x600.jpg?resize=525%2C328)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-lightbulb-960x600.jpg)
+
+Where we’re going, there isn’t going to be much enLIGHTenment… get it?
 
 Let’s get down to how this scenario is going to play out and how you can keep yourself from going crazy. We’ll roll back the clock just a bit to right at the point where you *thought* you’d have a lively debate. This all assumes you didn’t roll up and just smear your words around on the walls like a jerk. If you did, I can’t really help you, there. That’s just provoking someone. Not cool.
 
@@ -43,7 +48,9 @@ For this, we’ll use names, but make them up. Thanks to the [random name genera
 
 Arthur doesn’t like that, at all. Usually around this time if things are going to go sideways, you’ll start getting attacks right away. Here’s where you can pick which route you want to take, both of which lead to wins: send them on their way or watch them explode. I’ve done both, personally. I use these types of scenarios to weed out people who probably shouldn’t have been a friend in the first place. It’s helped me curate those I want to be in regular contact with and I’ve had more meaningful relationships because of it. If I really want to gauge someone, I’ll go for the latter. Depending on it turns out determines if they’re a decent friend.
 
-[![These two stayed together because when they have differences of opinion, they're not douche waffles about it... probably.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-woman-man-couple-walking-street-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-woman-man-couple-walking-street-960x640.jpg)These two stayed together because when they have differences of opinion, they’re not douche waffles about it… probably.
+[![These two stayed together because when they have differences of opinion, they're not douche waffles about it... probably.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-woman-man-couple-walking-street-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-woman-man-couple-walking-street-960x640.jpg)
+
+These two stayed together because when they have differences of opinion, they’re not douche waffles about it… probably.
 
 If Brent takes the first route, Arthur just got dressed up with nowhere to go. An instant deflation is a solid move. In real life, this is just walking away. On the Internet, it’s a removal of the connection that’s established between you and them. Now if Brent takes the other route, a bit more self control is required. Be on the lookout for some of these things:
 
@@ -58,7 +65,9 @@ If Brent takes the first route, Arthur just got dressed up with nowhere to go. A
 
 It’s a good thing Brent isn’t the kind to just walk away from a fight. No sir. Brent isn’t going to put up with stupid people. Brent is smart. Brent will make them lose their minds.
 
-[![The angst is going to get real, so be ready.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-man-ocean-water-front-lake-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-man-ocean-water-front-lake-960x640.jpg)The angst is going to get real, so be ready.
+[![The angst is going to get real, so be ready.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-man-ocean-water-front-lake-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-man-ocean-water-front-lake-960x640.jpg)
+
+The angst is going to get real, so be ready.
 
 Ready? start by playing dumb, otherwise known as baiting. It’s like how when cops know there’s a drug dealer in the neighborhood but they need to catch him in the act to do something about it? Yeah. Brent’s going to bait the hell out of this conversation. Boom. Arthur drops a YouTube video link. That covers two bullet points above. We’re off to a great start.
 
@@ -68,7 +77,9 @@ Once you’re at this point, it’s smooth sailing. It might take a few tries to
 
 Start dropping the logic bombs. This’ll toss them for a loop, for sure. Get ready for the personal attacks and mockery, because that’s usually what happens by about now. Keep playing the logic cards in your hand and watch the tire fire grow. Odds are no one else will join in at this point. They’re either not going to touch this with a 10 foot pole because it’s so diseased or they’re too amused.
 
-[![An artist rendition of what a logic bomb looks like within a one-sided conversation on Facebook.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pumpkins-baby-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pumpkins-baby-960x640.jpg)An artist rendition of what a logic bomb looks like within a one-sided conversation on Facebook.
+[![An artist rendition of what a logic bomb looks like within a one-sided conversation on Facebook.](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pumpkins-baby-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-pumpkins-baby-960x640.jpg)
+
+An artist rendition of what a logic bomb looks like within a one-sided conversation on Facebook.
 
 The back and forth might go on for a while, so it’ll be up to you to determine how long you want to drag it out. The most satisfying take a while, so be ready. Pee before you start, if you have to, because you might be sitting there for a while.
 
@@ -76,7 +87,9 @@ So Brent and Arthur have traded some shots, or rather Arthur shot Brent several 
 
 All in all, you probably said a total of 50 words, and they lost their mind. Most importantly, though: you won. I guarantee you didn’t actually get your point across. That’s not what this is about, though. This is about winning. You showed them you’re number one. Their tiny brain couldn’t handle it. They collapsed under the weight of their nonsense and you’re standing tall like the Internet king you are.
 
-[![boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640.jpg)This is what winners on the Internet look like.
+[![boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640.jpg?resize=525%2C350)](/assets/images/2016/04/boss-fight-free-high-quality-stock-images-photos-photography-motorcycle-road-trick-960x640.jpg)
+
+This is what winners on the Internet look like.
 
 You put out the garbage fire you started because you rock.
 
