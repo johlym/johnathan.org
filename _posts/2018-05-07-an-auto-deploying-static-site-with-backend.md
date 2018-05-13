@@ -28,7 +28,7 @@ This led me to self-host WordPress. I enjoy setting up and maintaining servers a
 I would vouch for [Digital Ocean](https://m.do.co/c/b3e840db07ba) all day long, though. They're great people to work with--I know at least one of them personally--and their UI is prefect for my needs.
 
 {% note success %}
-**Side note:** use that link and you'll get $10 in credit when you sign up. That's 2 months of their entry VPS (1GB RAM).
+**Side note:** use that link and you'll get $10 in credit when you sign up. That's 2 months of their entry VPS (1GB RAM) for free.
 {% endnote %}
 
 I had to really think about my plan. If I was going to go back to static, I needed to pick a tool that I wouldn't end up hating six months from now. My answer was actually several tools.
@@ -47,7 +47,7 @@ Jekyll seemed like a no-brainer. Hugo was out of the question because I didn't w
 
 ### Circle CI
 
-[![](/assets/images/2018/05/07/circle_ci_page-sm.jpg)](/assets/images/2018/05/07/circle_ci_page.jpg){: data-lightbox="image-1"} 
+[![](/assets/images/2018/05/07/circleci-sm@2x.jpg){: data-lightbox="image-3" srcset="/assets/images/2018/05/07/circleci-sm@2x.jpg 2x /assets/images/2018/05/07/circleci-sm.jpg 1x"}](/assets/images/2018/05/07/circleci.jpg)
 
 Circle CI came late in the game. I was originally going to use Netlify to deploy and host my site but I didn't like how little control I had. Yes, it's free as in beer, but I didn't have any kind of insight as to the performance or overall control. Beyond that, deployment took longer than I wanted, primarily because it spends time at the final stages checking the HTML for forms it needs to process and understand. Given that I have over 300 pages--probably more than 400, actually--that was a non-starter. I'd probably use Netlify at work, but not for this project.
 
@@ -65,7 +65,7 @@ With these three tools in play, I have what amounts to a static site-CMS hybrid.
 
 On my server, I have Nginx serving the pages with some effective caching and it's smooth. By extracting WordPress and it's PHP+MySQL clusterfest, I've also been able to improve load times both in the context of first-byte and the entire page.
 
-[![](/assets/images/2018/05/07/pagespeed_yslow-sm.jpg)](/assets/images/2018/05/07/pagespeed_yslow.jpg){: data-lightbox="image-3"}
+[![](/assets/images/2018/05/07/gtmetrix-0512-sm@2x.jpg){: data-lightbox="image-3" srcset="/assets/images/2018/05/07/gtmetrix-0512-sm@2x.jpg 2x /assets/images/2018/05/07/gtmetrix-0512-sm.jpg 1x"}](/assets/images/2018/05/07/gtmetrix-0512.jpg)
 
 My PageSpeed and YSlow scores are better than they used to be when running WordPress. There's room for improvement but overall, it's turning out pretty well when I consider the fact that I haven't gone out of my way to make them great. 
 
