@@ -47,7 +47,7 @@ Jekyll seemed like a no-brainer. Hugo was out of the question because I didn't w
 
 ### Circle CI
 
-[![](){: data-src="/assets/images/2018/05/07/circleci-sm.jpg" data-srcset="/assets/images/2018/05/07/circleci-sm@2x.jpg 2x"}](/assets/images/2018/05/07/circleci.jpg){: data-lightbox="image-1"}
+[![](){: data-src="/assets/images/2018/05/07/circleci-sm.jpg" data-srcset="/assets/images/2018/05/07/circleci-sm@2x.jpg 2x" data-proofer-ignore}](/assets/images/2018/05/07/circleci.jpg){: data-lightbox="image-1"}
 
 Circle CI came late in the game. I was originally going to use Netlify to deploy and host my site but I didn't like how little control I had. Yes, it's free as in beer, but I didn't have any kind of insight as to the performance or overall control. Beyond that, deployment took longer than I wanted, primarily because it spends time at the final stages checking the HTML for forms it needs to process and understand. Given that I have over 300 pages--probably more than 400, actually--that was a non-starter. I'd probably use Netlify at work, but not for this project.
 
@@ -55,7 +55,7 @@ By having an CI tool at the ready, I could have it build the Jekyll-based site f
 
 ### Forestry.io
 
-[![](){: data-src="/assets/images/2018/05/07/forestry-sm.jpg" data-srcset="/assets/images/2018/05/07/forestry-sm@2x.jpg 2x"}](/assets/images/2018/05/07/forestry.jpg){: data-lightbox="image-2"}
+[![](){: data-src="/assets/images/2018/05/07/forestry-sm.jpg" data-srcset="/assets/images/2018/05/07/forestry-sm@2x.jpg 2x" data-proofer-ignore}](/assets/images/2018/05/07/forestry.jpg){: data-lightbox="image-2"}
 
 Forestry.io is a tool I never heard of until a few weeks ago. It syncs with the GitHub repo that stores my site and allows me to create posts and pages, manipulate front matter templates, and do some basic media uploading. It's not perfect, and on rare occasions it trips GitHub's API rate limiting, but it's been pretty solid overall. Support is good, and the free tier does exactly what I need it to, nothing more.
 
@@ -65,11 +65,11 @@ With these three tools in play, I have what amounts to a static site-CMS hybrid.
 
 On my server, I have Nginx serving the pages with some effective caching and it's smooth. By extracting WordPress and it's PHP+MySQL clusterfest, I've also been able to improve load times both in the context of first-byte and the entire page.
 
-[![](){: data-src="/assets/images/2018/05/07/gtmetrix-0512-sm.jpg" data-srcset="/assets/images/2018/05/07/gtmetrix-0512-sm@2x.jpg 2x"}](/assets/images/2018/05/07/gtmetrix-0512.jpg){: data-lightbox="image-3"}
+[![](){: data-src="/assets/images/2018/05/07/gtmetrix-0512-sm.jpg" data-srcset="/assets/images/2018/05/07/gtmetrix-0512-sm@2x.jpg 2x" data-proofer-ignore}](/assets/images/2018/05/07/gtmetrix-0512.jpg){: data-lightbox="image-3"}
 
 My PageSpeed and YSlow scores are better than they used to be when running WordPress. There's room for improvement but overall, it's turning out pretty well when I consider the fact that I haven't gone out of my way to make them great. 
 
-[![](){: data-src="/assets/images/2018/05/07/lighthouse-sm.jpg"}](/assets/images/2018/05/07/lighthouse.jpg){: data-lightbox="image-4"}
+[![](){: data-src="/assets/images/2018/05/07/lighthouse-sm.jpg" data-proofer-ignore}](/assets/images/2018/05/07/lighthouse.jpg){: data-lightbox="image-4"}
 
 One thing I really need to work on, though, is my Lighthouse performance. This is what I would say is going to be the successor to PageSpeed. It's really tough on sites and my performance as it's measuring is dismal. Some of that might be the extensions Chrome is running and removing them speeds things up a bit, but I definitely have some front-loading I need to do of critical CSS and moving the rest to the back. 
 
