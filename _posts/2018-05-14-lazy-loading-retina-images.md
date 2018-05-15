@@ -1,14 +1,14 @@
 ---
 title: Lazy-loading Retina Images in a Jekyll Site
 layout: post
-date: 2018-05-14 20:35:00 -0800
+date: 2018-05-14 21:00:00 -0700
 excerpt: Poppin' in them extra pixels (but only when necessary)
-category:
-- Programming
 tags:
 - static sites
 - jekyll
 - javascript
+categories:
+- Programming
 ---
 Something I've wanted to touch on ever since a couple posts ago was lazy loading images. Now that I'm trying to consciously serve 2x images for those with such a pixel density, I'm setting myself up for increased page loads and folks may never even make it that far down the page. Since there's no need to load what one won't see, I set out to add lazy image loading support to the blog.
 
