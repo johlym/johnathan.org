@@ -1,7 +1,7 @@
 ---
 title: The Apple Class-Action Lawsuit
 layout: post
-date: 2018-05-15 00:00:00 +0000
+date: 2018-05-15 19:06:00 +0000
 excerpt: To the surprise of no one
 category:
 - Technology
