@@ -1,4 +1,7 @@
 ---
+- title: CloudFlare
+  url: https://cloudflare.com
+  protocol: https
 - title: Marco Arment
   url: https://marco.org
   protocol: https
