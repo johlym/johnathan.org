@@ -66,7 +66,7 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
-      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --checks_to_ignore "ImageRunner" --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
+      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
   deploy:
     <<: *defaults
     steps:
