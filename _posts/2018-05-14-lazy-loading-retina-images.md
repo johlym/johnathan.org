@@ -1,11 +1,7 @@
 ---
 title: Lazy-loading Retina Images in a Jekyll Site
 layout: post
-<<<<<<< HEAD
-date: 2018-05-14 20:35:00 -0000
-=======
-date: 2018-05-14 21:00:00 -0700
->>>>>>> 8ece6218fe369ec200785310e943c9ac6d3640a6
+date: 2018-05-15 05:00:00 +0000
 excerpt: Poppin' in them extra pixels (but only when necessary)
 tags:
 - static sites
