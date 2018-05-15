@@ -39,7 +39,7 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
-      - run: bundle exec jekyll build --destination /home/circleci/repo/_site
+      - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
       - persist_to_workspace:
           root: .
           paths:
@@ -55,7 +55,7 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
-      - run: bundle exec htmlproofer ./_site --check-html --checks_to_ignore 'ImageCheck' --disable-external --empty_alt_ignore
+      - run: bundle exec htmlproofer ./_site --check-html --checks_to_ignore 'ImageCheck' --disable-external --verbose true --empty_alt_ignore
   test_links:
     <<: *defaults
     steps:
@@ -66,7 +66,7 @@ jobs:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
-      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --checks_to_ignore 'ImageCheck' --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/"
+      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --checks_to_ignore 'ImageCheck' --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/" --verbose true
   deploy:
     <<: *defaults
     steps:
