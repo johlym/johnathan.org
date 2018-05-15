@@ -64,33 +64,10 @@
       </div>
     </div>
     <script>
-    var uptimeElement = document.querySelector(".uptime-number");
-    checkAndDisplayUptime = function() {
-        var e1 = new XMLHttpRequest;
-        e1.open("get", "https://updown.io/api/checks?api-key={{ site.api_keys.uptime_io.r_o }}", !0), e1.responseType = "json", e1.onload = function() {
-            if (200 === e1.status) {
-            var a1 = e1.response;
-            if (null !== a1[0].uptime) {
-                uptimeElement.innerHTML = a1[0].uptime + "%"
-            }
-            else {
-                uptimeElement.innerHTML = "unknown %";
-            }
-            }
-        }, e1.send()
-    };
-
-    null !== uptimeElement && setTimeout(function() { checkAndDisplayUptime() }, 5e3);
-</script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
-<script>
-  (function(w, d){
-	var b = d.getElementsByTagName('body')[0];
-	var s = d.createElement("script"); s.async = true;
-	var v = !("IntersectionObserver" in w) ? "8.7.1" : "10.5.2";
-	s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
-	w.lazyLoadOptions = {}; // Your options here. See "recipes" for more information about async.
-	b.appendChild(s);
-}(window, document));
-</script>
+    var uptimeElement=document.querySelector(".uptime-number");checkAndDisplayUptime=function(){var e=new XMLHttpRequest;e.open("get","https://updown.io/api/checks?api-key={{ site.api_keys.uptime_io.r_o }}",!0),e.responseType="json",e.onload=function(){if(200===e.status){var n=e.response;null!==n[0].uptime?uptimeElement.innerHTML=n[0].uptime+"%":uptimeElement.innerHTML="unknown %"}},e.send()},null!==uptimeElement&&setTimeout(function(){checkAndDisplayUptime()},5e3);
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+    <script>
+    !function(a,e){var n=e.getElementsByTagName("body")[0],l=e.createElement("script");l.async=!0;var t="IntersectionObserver"in a?"10.5.2":"8.7.1";l.src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/"+t+"/lazyload.min.js",a.lazyLoadOptions={},n.appendChild(l)}(window,document);
+    </script>
