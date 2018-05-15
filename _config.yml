@@ -5,6 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://johnathan.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:title.html
 
+timezone: America/Los_Angeles
+
 pagination:
   enabled: true
   per_page: 3
