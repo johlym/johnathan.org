@@ -58,6 +58,7 @@ html {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-top: 1em;
       .menu {
         margin: 0 auto;
         padding: 0;
@@ -76,13 +77,19 @@ html {
         }
       }
     }
-    .headshot {
+    .ad {
       order: 0;
       @include respond-to('mobile') {
         order: 0;
       }
       flex: 0 1 auto;
-      align-self: stretch;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 0.8em;
+      text-align: right;
+      a {
+        color: #333;
+      }
       img {
         display: block;
         margin: 0 auto;

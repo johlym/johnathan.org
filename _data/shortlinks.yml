@@ -11,3 +11,6 @@
 - title: DNSimple
   key: dnsimple
   destination: https://dnsimple.com/r/6ff1f3d051979b
+- title: NordVPN
+  key: nordvpn
+  destination: https://nordvpn.sjv.io/c/35573/464440/7452
