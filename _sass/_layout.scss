@@ -87,6 +87,7 @@ html {
       justify-content: center;
       font-size: 0.8em;
       text-align: right;
+      margin-top: 1em;
       a {
         color: #333;
       }
@@ -196,7 +197,7 @@ html {
         .follow-up {
           padding: 1em;
           color: #333;
-          margin-bottom: 10px;
+          margin: 1em 0;
           h4 {
             margin: 0;
           }
@@ -244,6 +245,23 @@ html {
         .notice {
           background-color: #c7effc;
           border: 1px solid #27b6e6;
+        }
+        .sponsored-by {
+          padding: 1em 0 1.5em 0;
+          border-top: 1px solid #f0f0f0;
+          span.image {
+            float: left;
+            margin-right: 1em;
+          }
+          .cta {
+            -webkit-border-radius: 4;
+            -moz-border-radius: 4;
+            border-radius: 4px;
+            font-family: Arial;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+          }
         }
       }
       .tags {
