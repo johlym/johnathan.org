@@ -12,5 +12,5 @@
   key: dnsimple
   destination: https://dnsimple.com/r/6ff1f3d051979b
 - title: NordVPN
-  key: nordvpn
-  destination: https://nordvpn.sjv.io/c/35573/464440/7452
+  key: nordvpn-header
+  destination: https://go.nordvpn.net/aff_c?offer_id=15&aff_id=13262&url_id=902&source=johnathan-org-header-promotion
