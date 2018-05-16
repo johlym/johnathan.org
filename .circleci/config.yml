@@ -78,9 +78,20 @@ jobs:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle --path vendor/bundle
       - run: sudo apt install rsync
-      - run: if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ~/repo/_site deploy@159.65.70.80:/var/www/johnathan.org/static; fi
-      - run: if [ $CIRCLE_BRANCH = 'master' ]; then curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
-      -H "X-Auth-Email: $CLOUDFLARE_API_EMAIL" -H "X-Auth-Key: $CLOUDFLARE_API_KEY" -H "Content-Type: application/json" --data '{"purge_everything":true}'; fi
+      - run: 
+          name: Deploy to prod server
+          command: |
+            if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ~/repo/_site deploy@159.65.70.80:/var/www/johnathan.org/static; fi
+      - run: 
+          name: Bust CloudFlare cache
+          command: |
+            if [ $CIRCLE_BRANCH = 'master' ]; then 
+              curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
+              -H "X-Auth-Email: $CLOUDFLARE_API_EMAIL" \
+              -H "X-Auth-Key: $CLOUDFLARE_API_KEY" \
+              -H "Content-Type: application/json" \
+              --data '{"purge_everything":true}'; 
+            fi
 
 
 workflows:
