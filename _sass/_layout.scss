@@ -247,13 +247,33 @@ html {
           border: 1px solid #27b6e6;
         }
         .sponsored-by {
-          padding: 1em 0 1.5em 0;
+          padding: 0 0 1.5em 0;
           border-top: 1px solid #f0f0f0;
-          span.image {
-            float: left;
-            margin-right: 1em;
+          .disclosure {
+            line-height: 1;
+            padding: 3px;
+            float: right;
+            background: #f0f0f0;
+            color: #999;
+            font-size: 8pt;
           }
-          .cta {
+          .sponsored-by_image-container {
+            min-height: 128px;
+            padding-top: 1em;
+            .sponsored-by_image {
+              float: left;
+              margin-right: 1em;
+              width: 100px;
+              height: auto;
+            }
+            .sponsored-by_title {
+              margin-bottom: 1em;
+            }
+            .sponsored-by_text {
+              margin-top: 0;
+            }
+          }
+          .sponsored-by_cta {
             -webkit-border-radius: 4;
             -moz-border-radius: 4;
             border-radius: 4px;

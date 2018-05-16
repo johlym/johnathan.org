@@ -1,0 +1,14 @@
+{% assign post_date = page.date | date: "%s" %}
+{% assign oneyear = page.date | date: "%s" | plus: 31536000 | date: "%s" %}
+{% assign current_time = site.time | date: "%s" %}
+{% assign age = current_time | minus: post_date | divided_by: 86400 %}
+{% if current_time > oneyear %}
+<div class="follow-up notice">
+  <h4>Something incorrect?</h4>
+
+  <h5>This article is over a year old, that's entirely possible.</h5>
+  <p>
+    I've made many changes to this site over the last few years and sometimes things get missed when I sweep for updates. I wrote this post <strong>{{ age }}</strong> days ago and might need updating or we're in a situation where I've explained something that is no longer accurate. If you found something incorrect or needs refreshing, <a href="/about.html">let me know</a> and I'll get it fixed.
+  </p>
+</div>
+{% endif %}

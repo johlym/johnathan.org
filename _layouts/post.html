@@ -15,38 +15,9 @@
         </span>
         <div class="content">
         {{ page.content }}
-        {% assign random = site.time | date: "%s%N" | modulo: site.data.footer_ads.size %}
-        {% assign placement = site.data.footer_ads[random] %}
-        <div class="follow-up sponsored-by {{ placement.short }}">
-          <h4>{{ placement.title }}</h4>
-          <span class="image">
-            {% if placement.image_2x %}<img src="{{ placement.image_url }}" srcset="{{ placement.image_2x_url }} 2x" />
-            {% else %}<img src="{{ placement.image_url }}" />{% endif %}
-          </span>
-          <p>
-            {{ placement.description }}
-          </p>
-          <a href="{{ placement.link }}" class="cta" target="_blank" style="border: 1px solid rgb({{ placement.official_rgb_color }}); background-color: rgb({{ placement.official_rgb_color }}); color: {{ placement.cta_color }};">{{ placement.cta_text }}</a>
-        </div>
-        <div class="follow-up buy-coffee">
-          <h4>You've finished reading, now what?</h4>
-          <p>If you've made it this far, thanks! Your eyeballs mean a lot to me. If this post was something less than an entire waste of time, consider buying me a coffee. Caffeine is the life blood of my people and without it, we will perish. <small>/s</small></p>
-         <a href="https://www.buymeacoffee.com/johnathan" class="btn" target="_blank"><i class="fas fa-coffee"></i> Buy me a coffee</a>
-        </div>
-        {% assign post_date = page.date | date: "%s" %}
-        {% assign oneyear = page.date | date: "%s" | plus: 31536000 | date: "%s" %}
-        {% assign current_time = site.time | date: "%s" %}
-        {% assign age = current_time | minus: post_date | divided_by: 86400 %}
-        {% if current_time > oneyear %}
-        <div class="follow-up notice">
-          <h4>Something incorrect?</h4>
-
-          <h5>This article is over a year old, that's entirely possible.</h5>
-          <p>
-            I've made many changes to this site over the last few years and sometimes things get missed when I sweep for updates. I wrote this post <strong>{{ age }}</strong> days ago and might need updating or we're in a situation where I've explained something that is no longer accurate. If you found something incorrect or needs refreshing, <a href="/about.html">let me know</a> and I'll get it fixed.
-          </p>
-        </div>
-        {% endif %}
+        {% include content_ad.html %}
+        {% include coffee.html %}
+        {% include old-content.html %}
         </div>
         <span class="tags">
         {% if page.categories.size > 0 %}

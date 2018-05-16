@@ -10,3 +10,14 @@
   cta_text: Start Deploying!
   official_rgb_color: "0,128,255"
   cta_color: white
+- id: 2
+  short: nordvpn
+  title: NordVPN
+  description: With a "no logs" policy, military-grade encryption, almost 3,000 servers and no bandwidth caps, NordVPN is a leader in secure, anonymous access to the Internet. NordVPN is recommended by Wired, BuzzFeed, The Verge, and dozens more reputable media outlets. Get three years of service for $99 and a 30-day money-back guarantee.
+  link: https://johnathan.org/goto/nordvpn2
+  image_url: /assets/images/ads/n/nordvpn/logo/nordvpn_logo.jpg
+  image_2x: true
+  image_2x_url: /assets/images/ads/n/nordvpn/logo/nordvpn_logo@2x.jpg
+  cta_text: Start Browsing Securely
+  official_rgb_color: "23,82,123"
+  cta_color: white
