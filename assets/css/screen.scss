@@ -10,6 +10,10 @@
 @import "fa/fa-regular";
 @import "fa/fa-solid";{% endif %}
 @import 'layout';
+@import 'forms';
+@import 'buttons';
 @import 'components/alerts';
 @import 'components/lightbox';
-@import 'syntax'
+@import 'syntax';
+
+@import 'responsive/forms';

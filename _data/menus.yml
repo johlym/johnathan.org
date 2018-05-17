@@ -5,6 +5,9 @@ header:
   - url: /about.html
     title: About
     identifier: about
+  - url: /contact.html
+    title: Contact
+    identifier: contact
   - url: /reads.html
     title: Books
     identifier: books
