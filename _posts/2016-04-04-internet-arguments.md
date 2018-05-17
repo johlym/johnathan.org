@@ -18,7 +18,7 @@ This solution comes in two flavors, and I want to address them both. First, thou
 
 We all know what a good old-fashioned Internet argument looks like: party A has an opinion and party B has one, too. Party A tells party B and party B. It’s at this point where be diverge and either convert to a debate or an argument. The debate track is an obvious one and I don’t think it needs discussion. Let’s not get confused, though. What you see on TV during an election year are not debates. Don’t be foolish.
 
-The argument track is where I’m headed, and more often than not, the scenario progresses by one party providing counterpoints, the other starting flaming up and eventually both are flipping their shit all over the place like monkeys. That’s never a good thing. Twitter is full of them. I’ve been in many of them.
+The argument track is where I’m headed, and more often than not, the scenario progresses by one party providing counterpoints, the other starting flaming up and eventually both are flipping their s--t all over the place like monkeys. That’s never a good thing. Twitter is full of them. I’ve been in many of them.
 
 Before I explain how to get out of this scenario on top, lets look at why this happens.
 

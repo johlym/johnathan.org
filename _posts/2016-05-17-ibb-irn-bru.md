@@ -39,7 +39,7 @@ Barr’s has made a legit attempt to make sure Irn Bru is as US legit as possibl
 
 **Desire** – 2/10. Again, like the taste, adult Johnathan is nearing repulsion. Seven-year-old me is now spazzing out.
 
-**Overall** – 9/30. If you’re over the age of seven, don’t even think about it. The exception is those who drink jello before it sets or they have odd fixations with funky-ass citrus flavors.
+**Overall** – 9/30. If you’re over the age of seven, don’t even think about it. The exception is those who drink jello before it sets or they have odd fixations with funky-@$$ citrus flavors.
 
 I picked this one up at the Aussie Products store for a few bucks but it can be had online in many places, [including Amazon][7] and [UK Goods][8].
 

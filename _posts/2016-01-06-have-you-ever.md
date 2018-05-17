@@ -19,7 +19,7 @@ I could publish link posts every day, but I don’t have the traffic to warrant 
 
 There are things I want to write about, but the motivation really isn’t there. I know at the core it’s all about “just doing it,” but I had a hard time pushing myself in the majority of 2015.
 
-Remembering what the [start of 2015][3] was like, I was firing things off left and right, really kicking ass, and I was enjoying it. I even remember the post I did about someone [wearing Ugg boots to an interview][4]. That was today, one year ago. I also had a morning routine. Perhaps that’s the key, right there. I knew I had to leave for work early, and I knew the best time to sit and write was in the morning, so I sat down before the rooster woke and wrote. It was amazing what I could get done in 30-45 minutes.
+Remembering what the [start of 2015][3] was like, I was firing things off left and right, really kicking @$$, and I was enjoying it. I even remember the post I did about someone [wearing Ugg boots to an interview][4]. That was today, one year ago. I also had a morning routine. Perhaps that’s the key, right there. I knew I had to leave for work early, and I knew the best time to sit and write was in the morning, so I sat down before the rooster woke and wrote. It was amazing what I could get done in 30-45 minutes.
 
 In 2015 I wrote about 90,000 words, give or take. I’d like to see myself add another 100,000 this year. Based on some iPhone calculator math, if I started tomorrow, that’s a mere 279 words per day. I’ve already crossed that line in this post.
 
@@ -49,7 +49,7 @@ I mean sitting at my desk during the day. If I’m sitting at that desk between 
 
 It’s either that or I find a coworking space, which could set me back as much as $500 a month. Ouch. I’d get more benefit out of renting a larger apartment with more square footage.
 
-So now that I’ve figured out what my problem is and the root cause, how can I fix it? Well, I guess a good start would be setting a time in the morning to wake and forcing myself to get my ass out of bed at that time, no matter how much I’d rather sleep. I honestly haven’t had my alarm go off in weeks, and I’ve been waking at about the same time, every day, so I can tell right away that this will be a bit of a jarring experience.
+So now that I’ve figured out what my problem is and the root cause, how can I fix it? Well, I guess a good start would be setting a time in the morning to wake and forcing myself to get my @$$ out of bed at that time, no matter how much I’d rather sleep. I honestly haven’t had my alarm go off in weeks, and I’ve been waking at about the same time, every day, so I can tell right away that this will be a bit of a jarring experience.
 
 As I write this, I opened my phone and set my FitBit to buzz at 6:00 AM. Let’s see how this goes, first. If my FitBit [can’t get me up][11] (or I’m [so far in dreamland][12] that I don’t realize what that far-off buzzing means), I’ll re-set my actual iPhone alarm clock.
 

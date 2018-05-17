@@ -11,7 +11,7 @@ categories:
 tags:
 - zappos
 ---
-A couple days ago I talked about killing in people relations, a.k.a kicking ass at customer service. I suggested a book by Dale Carnegie called How to Win Friends and Influence People. I also said there was a second book I recommend.
+A couple days ago I talked about killing in people relations, a.k.a kicking @$$ at customer service. I suggested a book by Dale Carnegie called How to Win Friends and Influence People. I also said there was a second book I recommend.
 
 That second book is by the CEO of Zappos, the site that sells a ton of shoes. [Delivering Happiness][1] isn’t just about learning how to smooth-talk through the phone or how to close a sale. It’s about making people feel appreciated. The book outlines what Tony Hsieh (pronounced `shay`) did and still does to make Zappos as awesome as possible.
 

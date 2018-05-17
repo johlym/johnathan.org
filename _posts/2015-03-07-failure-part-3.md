@@ -21,7 +21,7 @@ Let’s be honest about something. Failure isn’t a thing.
 
 Me.
 
-As someone who’s “failed” many times you and I should very well know by now that sometimes shit happens. That doesn’t make any one thing a failure.
+As someone who’s “failed” many times you and I should very well know by now that sometimes s--t happens. That doesn’t make any one thing a failure.
 
 We define failure as a threshold. Beyond X percentage of things going according to plan, we’re succeeding at something. Below X, we’re failing. This starts early in life with school. The archaic grading system we still use today—because if it ain’t broke, don’t fix it, right?…right?…guys?—tells us if we’re 100% correct on whatever menial task we’re completing, we’re performing admirably. If we only complete 59%, we’re failures.
 
@@ -54,7 +54,7 @@ I bet you’d love to shoot back at me with a million reason why each one of tho
 
 Our lives rotate around not failing, and failing is how we learn. We complete a task or an action and don’t do well at it, so we figure out what we did wrong and continue. We shouldn’t dwell on the idea that a particular thing takes time to master and in the meantime, we’re sub-par. No one is a master of anything overnight. No one is a master of anything even over two nights.
 
-The next time you tell yourself: “I wish I could just do today over,” let me know so I can slap you. You can go ahead and be a little bitch about it or you can just keep moving. You of all people should care the least if you haven’t mastered the day. Continue doing you and don’t worry about the rest. If you’re learning a new language, just keep working on it. If you’re trying to get into graduate school, just keep applying. If you’re developing a new app and don’t feel like it’ll meet everyone’s standards and would rather play video games because at least there you don’t get to see utter failure in the form of bad reviews, I’m sorry to say it but you need to nut up.
+The next time you tell yourself: “I wish I could just do today over,” let me know so I can slap you. You can go ahead and be a little b---h about it or you can just keep moving. You of all people should care the least if you haven’t mastered the day. Continue doing you and don’t worry about the rest. If you’re learning a new language, just keep working on it. If you’re trying to get into graduate school, just keep applying. If you’re developing a new app and don’t feel like it’ll meet everyone’s standards and would rather play video games because at least there you don’t get to see utter failure in the form of bad reviews, I’m sorry to say it but you need to nut up.
 
 The best things you have in life are the ones you worked the hardest for. You’ll value them the most and you’ll appreciate having them around. This goes for people, too.
 

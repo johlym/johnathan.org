@@ -21,7 +21,7 @@ Presentation is subdued and lacking a bit of class. I can’t tell what market t
 
 I had super high hopes for this drink. I love grape juice and I love sparkling beverages, but this just wasn’t good. I’m not sure what they did to it, but the inital taste was sweet (good), transitioning into tart (also good), then a butthole (yeah…).
 
-Not sure what their standards are in South Africa but if ass is on the menu, I’ll go ahead and skip it. I triple checked what I bought and it wasn’t expired. I even tried another can and got more of the same (yeah, I bought a six-pack of asswater).
+Not sure what their standards are in South Africa but if @$$ is on the menu, I’ll go ahead and skip it. I triple checked what I bought and it wasn’t expired. I even tried another can and got more of the same (yeah, I bought a six-pack of asswater).
 
 If you’re reading this and thinking “oh he’s just an American that drinks HFCS all the time, he doesn’t know what he’s talking about.” My response is that before you kindly leave, note that I’m not a huge fan of HFCS. Just about everything I drink doesn’t contain it, anymore, unless I can’t avoid it. I bid you good day.
 

@@ -21,7 +21,7 @@ Needless to say I could have prevented the aging of my knowledge by staying up t
 
 Now I’m paying for that decision as I work on slowing transitioning myself into a more software-development oriented career path. I enjoy ops-y stuff, but I like building things. I like tinkering (hacking?). My boss made a joke today about how involved I get whenever there’s a discussion about minor HTML tweaks to one of our sites.
 
-Hey… I like that shit.
+Hey… I like that s--t.
 
 One thing that made it easier for me to get into this new and soon-to-be-awe-inspiring technology is that I had a purpose. There was a clear goal I wanted to meet and beat.
 

@@ -239,7 +239,7 @@ If you’re looking for Windows Media Player and other streaming app support on 
 
 ## Starting `ffmpeg` and `ffserver`
 
-Now it’s time to get this shit started.
+Now it’s time to get this s--t started.
 
 We’ve spent all this set up time, and now we’re ready. You’ll want to launch `ffserver` first. If you put your config file in the default location and gave it the default name (`/etc/ffserver.conf`), all you need to do is run:
 

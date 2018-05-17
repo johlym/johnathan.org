@@ -31,7 +31,7 @@ That’s the end goal but it won’t happen overnight.
 
 > It took me a long time to come to terms with the idea that I had ambition. I felt guilty about it. Who was I to aspire to “rise above” my brothers and sisters or to aim to be “better” than anybody else?
 
-The words of a quitter… are you a quitter? I sure as shit am not. There are days when I feel like I should just give up but I never do because that’s me looking for an easy way out and not finding one. There’s never an easy way out of life. This includes suicide. That’s not an easy way out. There’s nothing easy about leaving your friends, family, and the world behind forever. There’s no such thing as a random act of suicide.
+The words of a quitter… are you a quitter? I sure as s--t am not. There are days when I feel like I should just give up but I never do because that’s me looking for an easy way out and not finding one. There’s never an easy way out of life. This includes suicide. That’s not an easy way out. There’s nothing easy about leaving your friends, family, and the world behind forever. There’s no such thing as a random act of suicide.
 
 The biggest driver of turning pro is ambition. Without it, failure is imminent.
 

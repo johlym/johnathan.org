@@ -19,6 +19,6 @@ Seriously, though, on the surface, it's hard to argue that Apple didn't know the
 
 The best outcome I see here is a settlement for a small handful of dollars per person. A recall won't fix the problem unless Apple has an entirely new keyboard they can slot into place. If that's the case, one could reasonably wonder why Apple didn't come out and say they have a fix (that new keyboard)?
 
-Beyond all this, though, I won't be surprised if the whole debacle ends up being a side-note at WWDC. Apple wouldn't admit they fucked up on a public stage like that. Jony Ive wouldn't let that happen.
+Beyond all this, though, I won't be surprised if the whole debacle ends up being a side-note at WWDC. Apple wouldn't admit they screwed up on a public stage like that. Jony Ive wouldn't let that happen.
 
 You can read the entire lawsuit [here](https://www.scribd.com/document/378981035/Butterfly-Keyboard-Class-Action).

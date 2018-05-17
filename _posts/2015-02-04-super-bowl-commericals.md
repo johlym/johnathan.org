@@ -19,7 +19,7 @@ Here’s a rundown of my favorites and why. Be warned: the list is long (I have 
 
 [https://youtube.com/watch?v=JKKlqMs19tU][1]
 
-This is one of those ads that makes me stand up and clap. See, [Dodge][2] makes [cars][3]. They make cars that [go fast][4]. They also make cars that are [stupid fast][5]. They’re going through their 100 year anniversary. What better way to show off their fleet of ass kickers than to find 100 year old ass kickers to put you in your place! Grandpa doesn’t want you to be a little bitch. Rock on, grandpa. Rock on.
+This is one of those ads that makes me stand up and clap. See, [Dodge][2] makes [cars][3]. They make cars that [go fast][4]. They also make cars that are [stupid fast][5]. They’re going through their 100 year anniversary. What better way to show off their fleet of @$$ kickers than to find 100 year old @$$ kickers to put you in your place! Grandpa doesn’t want you to be a little b---h. Rock on, grandpa. Rock on.
 
 ## Bud Light – Real Life PacMan
 
