@@ -4,11 +4,6 @@
 @import 'normalize';
 @import 'variables';
 @import 'mixins';
-@import 'fonts';
-{% if jekyll.environment != "production" %}@import "fa/fontawesome";
-@import "fa/fa-brands";
-@import "fa/fa-regular";
-@import "fa/fa-solid";{% endif %}
 @import 'layout';
 @import 'forms';
 @import 'buttons';
