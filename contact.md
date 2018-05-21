@@ -32,3 +32,41 @@ If you need to get a hold of me, this is the best way to do it.
         </div>
     </fieldset>
 </form>
+
+<script>
+var $contactForm = $('.contact-form');
+$contactForm.submit(function(e) {
+    e.preventDefault();
+    var data = $(this).serialize();
+    console.log(JSON.parse('{"' + decodeURI(data).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}'));
+    $.ajax({
+    url: "https://usebasin.com/f/2083ac5614fa.json",
+    method: 'POST',
+    data: data,
+    dataType: 'json',
+    beforeSend: function() {
+        $contactForm.append(`
+        <div class="alert alert-info sending-message"><div class="far fa-spinner fa-pulse alert-icon"></div>
+        <div class="alert-message">Sending message...</div>
+        </div>`);
+    },
+    success: function(data) {
+        $contactForm.find('.sending-message').hide();
+        $contactForm.append(`
+        <div class="alert alert-success"><div class="far fa-thumbs-up alert-icon"></div>
+        <div class="alert-message">Message sent successfully!</div>
+        </div>`);
+    },
+    error: function(err) {
+        $contactForm.find('.sending-message').hide();
+        $contactForm.append(`
+        <div class="alert alert-danger"><div class="far fa-ban alert-icon"></div>
+        <div class="alert-message">Something broke. Reload and try again?</div>
+        </div>`);
+    }
+    });
+    $contactForm.each(function(){
+    this.reset();
+    });
+});
+</script>

@@ -1,154 +1,71 @@
 <div class="footer-container">
-    <div class="footer">
-        <div class="row">
-          <div class="row-big">
-            <h3>Archives</h3>
-            {% assign post_years = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-              <div class="archive-links">
-                {% for year in post_years %}
-                <div class="year">
-                  <strong>{{ year.name }}</strong><br />
-                  {% assign post_months = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
-                  {% for month in post_months %}
-                  {% assign friendly = month.name %}
-                  <span class="month">
-                    <a href="/archives/{{ year.name }}/{{ month.name }}.html">
-                    {% case friendly %}
-                      {% when '01' %}January
-                      {% when '02' %}February
-                      {% when '03' %}March
-                      {% when '04' %}April
-                      {% when '05' %}May
-                      {% when '06' %}June
-                      {% when '07' %}July
-                      {% when '08' %}August
-                      {% when '09' %}September
-                      {% when '10' %}October
-                      {% when '11' %}November
-                      {% when '12' %}December
-                    {% endcase %}
-                    </a>
-                  </span>
-                  {% endfor %}
-                </div>
-                {% endfor %}
-              </div>
-          </div>
-          <div class="row-small">
-            <h3>Categories</h3>
-            <ul>
-              {% for category in site.categories %}
-              {% assign cat = category[0] %}
-              <li><a href="/category/{{ cat | downcase | slugify }}.html">{{ cat }}</a></li>
+  <div class="footer">
+    <div class="row">
+      <div class="row-big">
+        <h3>Archives</h3>
+        {% assign post_years = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+          <div class="archive-links">
+            {% for year in post_years %}
+            <div class="year">
+              <strong>{{ year.name }}</strong><br />
+              {% assign post_months = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+              {% for month in post_months %}
+              {% assign friendly = month.name %}
+              <span class="month">
+                <a href="/archives/{{ year.name }}/{{ month.name }}.html">
+                {% case friendly %}
+                  {% when '01' %}January
+                  {% when '02' %}February
+                  {% when '03' %}March
+                  {% when '04' %}April
+                  {% when '05' %}May
+                  {% when '06' %}June
+                  {% when '07' %}July
+                  {% when '08' %}August
+                  {% when '09' %}September
+                  {% when '10' %}October
+                  {% when '11' %}November
+                  {% when '12' %}December
+                {% endcase %}
+                </a>
+              </span>
               {% endfor %}
-            </ul>
+            </div>
+            {% endfor %}
           </div>
-          <div class="row-small">
-            <h3>Blogroll</h3>
-            <ul>
-              {% for entry in site.data.blogroll %}
-              <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          
-        </div>
-        <div class="copyright">
-          &copy; 2014-{{ site.time | date: "%Y" }} {{ site.about.name }}.<br />
-          <em>Made with <i class="far fa-heart"></i> in Seattle.</em><br />
-          <em>Powered by <a href="https://digitalocean.com"><i class="fab fa-digital-ocean"></i></a></em><br />
-          <a href="//twitter.com/_johlym" title="Find me on twitter"><i class="fab fa-twitter"></i></a> <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a> <a href="https://www.buymeacoffee.com/johnathan" title="Buy me a coffee"><i class="far fa-coffee"></i></a>
-          <br /><br />
-          <i class="fas fa-tachometer-alt"></i> Uptime: <span class="uptime-number"><i class="far fa-sync fa-spin"></i></span> <a href="//status.johnathan.org"> <i class="far fa-external-link"></i></a>
-          <br /><br />
-          Some links may contain tracking code that lead to compensation. 
-        </div>
       </div>
+      <div class="row-small">
+        <h3>Categories</h3>
+        <ul>
+          {% for category in site.categories %}
+          {% assign cat = category[0] %}
+          <li><a href="/category/{{ cat | downcase | slugify }}.html">{{ cat }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="row-small">
+        <h3>Blogroll</h3>
+        <ul>
+          {% for entry in site.data.blogroll %}
+          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      
     </div>
-    <script>
-    var uptimeElement=document.querySelector(".uptime-number");checkAndDisplayUptime=function(){var e=new XMLHttpRequest;e.open("get","https://updown.io/api/checks?api-key={{ site.api_keys.uptime_io.r_o }}",!0),e.responseType="json",e.onload=function(){if(200===e.status){var n=e.response;null!==n[0].uptime?uptimeElement.innerHTML=n[0].uptime+"%":uptimeElement.innerHTML="unknown %"}},e.send()},null!==uptimeElement&&setTimeout(function(){checkAndDisplayUptime()},5e3);
-    </script>
-    <script>
-      if (document.querySelector(".sponsored-by_title")) {
-        var sponsoredTitleElement = document.querySelector(".sponsored-by_title");
-        var sponsoredImageElement = document.querySelector(".sponsored-by_image");
-        var sponsoredTextElement = document.querySelector(".sponsored-by_text");
-        var sponsoredCtaElement = document.querySelector(".sponsored-by_cta");
-        fetch('{{ site.url }}/endpoints/content_ads.json')
-        .then(
-          function(response) {
-            if (response.status !== 200) {
-              console.log('Looks like there was a problem. Status Code: ' +
-                response.status);
-              return;
-            }
-
-            // Examine the text in the response
-            response.json().then(function(data) {
-              totalAdSize = data.length;
-              randomNumber = Math.floor(Math.random() * totalAdSize)
-              console.log(data);
-              adBlob = data[randomNumber];
-              sponsoredTitleElement.innerHTML = adBlob.title;
-              sponsoredImageElement.src = adBlob.image_url;
-              sponsoredImageElement.srcset = adBlob.image_2x_url + " 2x";
-              sponsoredTextElement.innerHTML = adBlob.description;
-              ctaButtonColor = adBlob.official_rgb_color;
-              ctaTextColor = adBlob.cta_color;
-              sponsoredCtaElement.style = "background-color: rgb(" + ctaButtonColor + "); color: " + ctaTextColor + ";";
-              sponsoredCtaElement.innerHTML = adBlob.cta_text;
-              sponsoredCtaElement.href = adBlob.link;
-            });
-          }
-        )
-        .catch(function(err) {
-          console.log('Fetch Error :-S', err);
-        });
-      }
-
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>    
-    <script>
-    !function(a,e){var n=e.getElementsByTagName("body")[0],l=e.createElement("script");l.async=!0;var t="IntersectionObserver"in a?"10.5.2":"8.7.1";l.src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/"+t+"/lazyload.min.js",a.lazyLoadOptions={},n.appendChild(l)}(window,document);
-    </script>
-    {% if page.url == "/contact.html" %}
-    <script>
-    var $contactForm = $('.contact-form');
-    $contactForm.submit(function(e) {
-      e.preventDefault();
-      var data = $(this).serialize();
-      console.log(JSON.parse('{"' + decodeURI(data).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}'));
-      $.ajax({
-        url: "https://usebasin.com/f/2083ac5614fa.json",
-        method: 'POST',
-        data: data,
-        dataType: 'json',
-        beforeSend: function() {
-          $contactForm.append(`
-          <div class="alert alert-info sending-message"><div class="far fa-spinner fa-pulse alert-icon"></div>
-            <div class="alert-message">Sending message...</div>
-          </div>`);
-        },
-        success: function(data) {
-          $contactForm.find('.sending-message').hide();
-          $contactForm.append(`
-          <div class="alert alert-success"><div class="far fa-thumbs-up alert-icon"></div>
-            <div class="alert-message">Message sent successfully!</div>
-          </div>`);
-        },
-        error: function(err) {
-          $contactForm.find('.sending-message').hide();
-          $contactForm.append(`
-          <div class="alert alert-danger"><div class="far fa-ban alert-icon"></div>
-            <div class="alert-message">Something broke. Reload and try again?</div>
-          </div>`);
-        }
-      });
-      $contactForm.each(function(){
-        this.reset();
-      });
-    });
-    </script>
-    {% endif %}
-    {% include pingdom.html %}
+    <div class="copyright">
+      &copy; 2014-{{ site.time | date: "%Y" }} {{ site.about.name }}.<br />
+      <em>Made with <i class="far fa-heart"></i> in Seattle.</em><br />
+      <em>Powered by <a href="https://digitalocean.com"><i class="fab fa-digital-ocean"></i></a></em><br />
+      <a href="//twitter.com/_johlym" title="Find me on twitter"><i class="fab fa-twitter"></i></a> <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a> <a href="https://www.buymeacoffee.com/johnathan" title="Buy me a coffee"><i class="far fa-coffee"></i></a>
+      <br /><br />
+      <i class="fas fa-tachometer-alt"></i> Uptime: <span class="uptime-number"><i class="far fa-sync fa-spin"></i></span> <a href="//status.johnathan.org"> <i class="far fa-external-link"></i></a>
+      <br /><br />
+      Some links may contain tracking code that lead to compensation. 
+    </div>
+  </div>
+</div>
+<script src="/assets/js/jquery.min.js"></script>
+<script defer src="/assets/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="//rum-static.pingdom.net/pa-5afc634e36f6400006000147.js" async></script>
