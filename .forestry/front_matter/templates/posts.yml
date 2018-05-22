@@ -21,6 +21,10 @@ fields:
   label: Date
   config:
     required: true
+- type: file
+  name: image
+  label: Image
+  description: Featured image
 - type: tag_list
   name: category
   label: Category
