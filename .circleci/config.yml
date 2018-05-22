@@ -83,7 +83,7 @@ jobs:
           command: |
             if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ~/repo/_site deploy@159.65.70.80:/var/www/johnathan.org/static; fi
       - run: 
-          name: Bust CloudFlare cache
+          name: Bust Cloudflare cache
           command: |
             if [ $CIRCLE_BRANCH = 'master' ]; then 
               curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \

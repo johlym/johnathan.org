@@ -30,6 +30,6 @@ I mean, I guess if you wanted. One thing to be careful of is making sure each pr
 <h2 id="cost">Cost</h2>
 DNSimple’s plans start at $5/month for 5 domains. Every one thereafter is $0.50/month. That’s stupid cheap. NS1 has a free tier and their plans are based on the number of DNS queries a domain receives and the total number of records rather than zones (domains). The free tier allots 500k queries and 50 records. That means if someone had 25 domains with two records (non-www, and www), they could in theory pay nothing for the service, whereas it’d cost $15/month with DNSimple.
 
-If I wanted, I could <em>really</em> make this cheap by using <a href="https://link.johnathan.org/cloudflare">CloudFlare</a> just for DNS in place of DNSimple, but it’s not enough of a savings to really matter, in my opinion.
+If I wanted, I could <em>really</em> make this cheap by using <a href="https://link.johnathan.org/cloudflare">Cloudflare</a> just for DNS in place of DNSimple, but it’s not enough of a savings to really matter, in my opinion.
 
 Either way, DNS management is cheap for folks like myself that run a small blog and if you’re playing with the right toys, it’s easy and well worth it to have DNS redundancy for your sites.
