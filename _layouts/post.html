@@ -15,6 +15,8 @@
         </span>
         <div class="content">
         {{ page.content }}
+        <hr class="ending">
+        {% include author.html %}
         {% include content_ad.html %}
         {% include coffee.html %}
         {% include old-content.html %}
@@ -41,10 +43,6 @@
         </span>
       </article>
       <div class="footer-things">
-        <div class="about-the-author footer-thing">
-          <h4>About the Author</h4>
-          <p>Johnathan is a Seattle developer, blogger, and simulated farmer. He enjoys long walks on the beach and coffee. He keeps track of the books he reads <a href="/reads.html">here</a>.</p>
-        </div>
         <div class="related footer-thing">
           {% unless page.tag == null %}
             {{ page.tags }}
