@@ -4,8 +4,37 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://johnathan.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:title.html
+author: 
+  twitter: _johlym
+
+twitter:
+  username: _johlym
+  card: summary
+
+facebook:
+  app_id: 240445549843015
+
+social:
+  name: Johnathan Lyman
+  links:
+    - https://twitter.com/_johlym
+    - https://facebook.com/johnathan.lyman
+    - https://linkedin.com/in/johnathanlyman
+    - https://github.com/johlym
+
+webmaster_verification:
+  bing: A7CA3DDA4E2BD27483559A916A6233BC
+  yandex: 114022df2ee682dc
+
+lang: en_US
 
 timezone: America/Los_Angeles
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/headshot_3x.jpg
 
 pagination:
   enabled: true
