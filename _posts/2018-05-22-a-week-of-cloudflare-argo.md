@@ -10,6 +10,7 @@ tags:
 categories:
 - Programming
 category: []
+image: "/assets/uploads/2018/05/22/pingdom_response_times.jpg"
 ---
 I recently made a pretty heavy shift over to [CloudFlare](https://cloudflare.com). The majority of assets and HTML on this site load from CloudFlare's servers now, instead of my own. The only time this differs is when I push changes up to its GitHub repo. The last step in the build process after deploying to my server is hitting the API and requesting a complete cache dump. I could be more programmatic about it but updates aren't frequent enough to warrant a more careful approach.
 
