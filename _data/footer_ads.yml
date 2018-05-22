@@ -2,7 +2,7 @@
 - id: 1
   short: digitalocean
   title: Digital Ocean $5 VPS
-  description: A docker-friendly, load balancer-ready cloud computing platform designed for developers. Deploy in less than a minute and scale quickly with free monitoring, application firewalls, and more. DigitalOcean even effortlessly powers Johnathan.org! Sign up and get $10 in DigitalOCean to use <strong>with no strings attached</strong>--good for up to 2 months of VPS services.
+  description: A docker-friendly, load balancer-ready cloud computing platform designed for developers. Deploy in less than a minute and scale quickly with free monitoring, application firewalls, and more. DigitalOcean even effortlessly powers Johnathan.org! Sign up and get $10 in DigitalOcean to use <strong>with no strings attached</strong>--good for up to 2 months of VPS services.
   link: https://johnathan.org/goto/digitalocean
   image_url: /assets/images/ads/d/digitalocean/logo/digitalocean_logo.png
   image_2x: true
