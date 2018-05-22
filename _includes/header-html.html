@@ -2,47 +2,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{% if page.home %} {{ site.title }}
-      {% else %} {{ page.title }} - {{ site.title }}  
-      {% endif %}</title>
+  <title>{% if page.home %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.about.name }}">
   <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
+  {% if page.title %}
   <meta content="{{ page.title }}" property="og:title">
-{% else %}
+  {% else %}
   <meta content="{{ site.title }}" property="og:title">
-{% endif %}
-{% if page.title %}
+  {% endif %}
+  {% if page.title %}
   <meta content="article" property="og:type">
-{% else %}
+  {% else %}
   <meta content="website" property="og:type">
-{% endif %}
-{% if page.excerpt %}
+  {% endif %}
+  {% if page.excerpt %}
   <meta content="{{ page.excerpt }}" property="og:description">
-{% else %}
+  {% else %}
   <meta content="{{ site.description }}" property="og:description">
-{% endif %}
-{% if page.url %}
+  {% endif %}
+  {% if page.url %}
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-{% endif %}
-{% if page.date %}
+  {% endif %}
+  {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about.html" property="article:author">
-{% endif %}
-{% if page.image %}
+  {% endif %}
+  {% if page.image %}
   <meta content="{{ page.image }}" property="og:image">
-{% endif %}
-{% if page.categories %}
+  {% else %}
+  <meta content="https://johnathan.org/assets/images/headshot_3x.jpg" property="og:image">
+  {% endif %}
+  {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
   {% endfor %}
-{% endif %}
-{% if page.tags %}
+  {% endif %}
+  {% if page.tags %}
   {% for tag in page.tags %}
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
-{% endif %}
+  {% endif %}
     {% assign random = site.time | date: "%s" %}
   <link rel="stylesheet" href="/assets/css/screen.css?{{ random | times: random }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700" rel="stylesheet">
