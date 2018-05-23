@@ -2,66 +2,20 @@
   <div class="footer">
     <div class="row">
       <div class="row-big">
-        <h3>Archives</h3>
-        {% assign post_years = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-          <div class="archive-links">
-            {% for year in post_years %}
-            <div class="year">
-              <strong>{{ year.name }}</strong><br />
-              {% assign post_months = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
-              {% for month in post_months %}
-              {% assign friendly = month.name %}
-              <span class="month">
-                <a href="/archives/{{ year.name }}/{{ month.name }}.html">
-                {% case friendly %}
-                  {% when '01' %}January
-                  {% when '02' %}February
-                  {% when '03' %}March
-                  {% when '04' %}April
-                  {% when '05' %}May
-                  {% when '06' %}June
-                  {% when '07' %}July
-                  {% when '08' %}August
-                  {% when '09' %}September
-                  {% when '10' %}October
-                  {% when '11' %}November
-                  {% when '12' %}December
-                {% endcase %}
-                </a>
-              </span>
-              {% endfor %}
-            </div>
-            {% endfor %}
-          </div>
+        {% include author.html %}
       </div>
-      <div class="row-small">
-        <h3>Categories</h3>
-        <ul>
-          {% for category in site.categories %}
-          {% assign cat = category[0] %}
-          <li><a href="/category/{{ cat | downcase | slugify }}.html">{{ cat }}</a></li>
-          {% endfor %}
-        </ul>
+      <div class="row-big">
+        <div class="copyright">
+          &copy; 2014-{{ site.time | date: "%Y" }} {{ site.about.name }}.<br />
+          <em>Made with <i class="far fa-heart"></i> in Seattle.</em><br />
+          <em>Powered by <a href="https://digitalocean.com"><i class="fab fa-digital-ocean"></i></a></em><br />
+          <a href="//twitter.com/_johlym" title="Find me on twitter"><i class="fab fa-twitter"></i></a> <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a> <a href="https://www.buymeacoffee.com/johnathan" title="Buy me a coffee"><i class="far fa-coffee"></i></a>
+          <br /><br />
+          <i class="fas fa-tachometer-alt"></i> Uptime: <span class="uptime-number"><i class="far fa-sync fa-spin"></i></span> <a href="//status.johnathan.org"> <i class="far fa-external-link"></i></a>
+          <br /><br />
+          Some links may contain tracking code that lead to compensation. 
+        </div>
       </div>
-      <div class="row-small">
-        <h3>Blogroll</h3>
-        <ul>
-          {% for entry in site.data.blogroll %}
-          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      
-    </div>
-    <div class="copyright">
-      &copy; 2014-{{ site.time | date: "%Y" }} {{ site.about.name }}.<br />
-      <em>Made with <i class="far fa-heart"></i> in Seattle.</em><br />
-      <em>Powered by <a href="https://digitalocean.com"><i class="fab fa-digital-ocean"></i></a></em><br />
-      <a href="//twitter.com/_johlym" title="Find me on twitter"><i class="fab fa-twitter"></i></a> <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a> <a href="https://www.buymeacoffee.com/johnathan" title="Buy me a coffee"><i class="far fa-coffee"></i></a>
-      <br /><br />
-      <i class="fas fa-tachometer-alt"></i> Uptime: <span class="uptime-number"><i class="far fa-sync fa-spin"></i></span> <a href="//status.johnathan.org"> <i class="far fa-external-link"></i></a>
-      <br /><br />
-      Some links may contain tracking code that lead to compensation. 
     </div>
   </div>
 </div>
