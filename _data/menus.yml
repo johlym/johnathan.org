@@ -8,6 +8,9 @@ header:
   - url: /contact.html
     title: Contact
     identifier: contact
+  - url: /posts.html
+    title: Posts
+    identifier: posts
   - url: /reads.html
     title: Books
     identifier: books
