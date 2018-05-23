@@ -11,22 +11,7 @@
         {{ content }}
         </div>
       </article>
-      <div class="page-newsletter">
-        <p><em>Subscribe for the latest every week...</em></p>
-        <form action="https://johnathan.us6.list-manage.com/subscribe/post?u=e5f42e548a66c308d233abedd&id=5a2942d91a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <label for="mce-EMAIL" style="display:none">Email Address </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_e5f42e548a66c308d233abedd_5a2942d91a" tabindex="-1" value="">
-          </div>
-          <div>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
-          </div>
-        </form>
-        <p>...or follow the <a href="/feed.xml">RSS feed</a>.</p>
-      </div>    
+      {% include newsletter.html %}    
     </div>
   </div>
   {% include footer.html %}
