@@ -1,0 +1,9 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: "/assets/images/headshot_3x.jpg"
