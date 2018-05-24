@@ -7,10 +7,9 @@ tags:
 - Cloudflare
 - Argo
 - Networking
-categories:
-- Programming
-category: []
+categories: []
 image: "/assets/uploads/2018/05/22/pingdom_response_times.jpg"
+category: []
 ---
 I recently made a pretty heavy shift over to [Cloudflare](https://cloudflare.com). The majority of assets and HTML on this site load from Cloudflare's servers now, instead of my own. The only time this differs is when I push changes up to its GitHub repo. The last step in the build process after deploying to my server is hitting the API and requesting a complete cache dump. I could be more programmatic about it but updates aren't frequent enough to warrant a more careful approach.
 
@@ -20,7 +19,11 @@ It's $5 a month plus $.10 per GB. Since most of the content on this site is text
 
 Looking at some of the stats, now...
 
-![](/assets/uploads/2018/05/22/updown_io_response_times.jpg)As reported by [Updown.io](https://johnathan.org/goto/updown) (the service that powers [status.johnathan.org](https://status.johnathan.org) and the uptime percentage at the bottom of the page), the majority of my requests come in in no time at all, with the obvious winner being Los Angeles (closest to San Francisco, my [DigitalOcean](https://johnathan.org/goto/digitalocean) location). The outlier is France, though I'm not too concerned with it. It seems to be fluctuating.
+![](/assets/uploads/2018/05/24/updown_io_response_times_05242018.jpg)
+
+As reported by [Updown.io](https://johnathan.org/goto/updown) (the service that powers [status.johnathan.org](https://status.johnathan.org) and the uptime percentage at the bottom of the page), the majority of my requests come in in no time at all, with the obvious winner being Los Angeles (closest to San Francisco, my [DigitalOcean](https://johnathan.org/goto/digitalocean) location). \~\~The outlier is France, though I'm not too concerned with it. It seems to be fluctuating\~\~. 
+
+\(**Update May 24, 2018**: I noticed response times from Updown.io had dropped to sub 100ms averages thanks to France falling in line with the rest of the countries. The only outlier at this point is Sydney's lookup taking 3-9x longer) than the other locations.)
 
 Moving over to [Pingdom](https://pingdom.com)...
 
