@@ -10,7 +10,8 @@ gulp.task('pages', function() {
   return gulp.src(['./_site/**/*.html'], {base: './'})
     .pipe(htmlmin({
       collapseWhitespace: true,
-      removeComments: true
+      removeComments: true,
+      processScripts: ['text/x-handlebars-template']
     }))
     .pipe(gulp.dest('./'));
 });
