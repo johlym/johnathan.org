@@ -26,11 +26,8 @@ jobs:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - ~/repo/vendor/bundle
-      - run: cd && npm install
-      - save_cache:
-          key: node-modules
-          paths:
             - ~/repo/node_modules
+      - run: cd && npm install
       - persist_to_workspace:
           root: .
           paths: 
