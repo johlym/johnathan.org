@@ -24,7 +24,7 @@ jobs:
           paths:
             - ~/repo/vendor/bundle
             - ~/repo/node_modules
-      - run: cd && npm install
+      - run: cd ~/repo && npm install
       - persist_to_workspace:
           root: .
           paths: 
