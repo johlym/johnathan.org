@@ -1,8 +1,14 @@
 html {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   line-height: 1.5;
   background-color: #333;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+	html {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
 }
 .container {
   background-color: #fff;
