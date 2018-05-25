@@ -25,7 +25,7 @@ gulp.task('scripts', function() {
 });
 
 // Gulp task to minify all files
-gulp.task('default', ['min'], function () {
+gulp.task('default', function () {
   runSequence(
     'scripts',
     'pages'
