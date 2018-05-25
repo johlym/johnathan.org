@@ -18,12 +18,9 @@ jobs:
       - checkout
       - attach_workspace:
           at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
       - run: bundle install --path vendor/bundle --jobs 4 --retry 3
       - save_cache:
-          key: v1-bundle-{{ checksum "Gemfile.lock" }}
+          key: build-cache
           paths:
             - ~/repo/vendor/bundle
             - ~/repo/node_modules
@@ -41,8 +38,7 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
-            - node-modules
+            - build-cache
       - run: bundle --path vendor/bundle
       - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
       - run: cd ~/repo
@@ -60,7 +56,7 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            - build-cache
       - run: bundle --path vendor/bundle
       - run: bundle exec htmlproofer ./_site --check-html --checks_to_ignore 'ImageCheck' --disable-external --log_level=debug --empty_alt_ignore
   test_links:
@@ -71,7 +67,7 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            - build-cache
       - run: bundle --path vendor/bundle
       - run: bundle exec htmlproofer ./_site --empty_alt_ignore --checks_to_ignore 'ImageCheck' --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/" --log_level=debug
   deploy:
@@ -82,7 +78,7 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}
+            - build-cache
       - run: bundle --path vendor/bundle
       - run: sudo apt install rsync
       - run: 
