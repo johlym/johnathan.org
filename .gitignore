@@ -1,6 +1,10 @@
 
 # Created by https://www.gitignore.io/api/macos,jekyll,visualstudiocode
 
+### Node ###
+
+node_modules/
+
 ### Jekyll ###
 _site/
 .sass-cache/
