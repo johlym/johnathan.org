@@ -43,7 +43,7 @@ jobs:
       - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
       - run: cd ~/repo
       - run: npm install
-      - run: gulp
+      - run: npx gulp
       - persist_to_workspace:
           root: .
           paths:
