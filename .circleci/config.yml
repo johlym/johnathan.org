@@ -20,11 +20,11 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json "}}
+            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
       - run: bundle install --path vendor/bundle --jobs 4 --retry 3
       - run: cd ~/repo && npm install
       - save_cache:
-          key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json "}}
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
           paths:
             - ~/repo/vendor/bundle
             - ~/repo/node_modules
