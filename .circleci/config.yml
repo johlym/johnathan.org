@@ -29,7 +29,6 @@ jobs:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
           paths:
             - ~/repo/vendor/bundle
-            - ~/repo/node_modules
       - persist_to_workspace:
           root: .
           paths:
