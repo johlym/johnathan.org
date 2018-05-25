@@ -9,7 +9,7 @@ defaults: &defaults
 
 version: 2
 jobs:
-  setup:
+  setup_and_build:
     <<: *defaults
     steps:
       - add_ssh_keys:
@@ -23,29 +23,13 @@ jobs:
             - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
       - run: bundle install --path vendor/bundle --jobs 4 --retry 3
       - run: cd ~/repo && npm install
+      - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
+      - run: cd ~/repo && npx gulp
       - save_cache:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
           paths:
             - ~/repo/vendor/bundle
             - ~/repo/node_modules
-      - persist_to_workspace:
-          root: .
-          paths: 
-           - vendor/bundle
-           - node_modules
-  build_site:
-    <<: *defaults
-    steps:
-      - checkout
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-      - run: bundle --path vendor/bundle
-      - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
-      - run: cd ~/repo
-      - run: npx gulp
       - persist_to_workspace:
           root: .
           paths:
@@ -104,16 +88,13 @@ workflows:
   version: 2
   build_test_deploy:
     jobs:
-      - setup
-      - build_site:
-          requires:
-            - setup
+      - setup_and_build
       - test_html:
           requires:
-            - build_site
+            - setup_and_build
       - test_links:
           requires:
-            - build_site
+            - setup_and_build
       - deploy:
           requires:
             - test_html
