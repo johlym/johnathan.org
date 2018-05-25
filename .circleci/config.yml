@@ -26,10 +26,16 @@ jobs:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - ~/repo/vendor/bundle
+      - run: npm --prefix ~/repo install
+      - save_cache:
+          key: node-modules
+          paths:
+            - ~/repo/node_modules
       - persist_to_workspace:
           root: .
           paths: 
            - vendor/bundle
+           - node_modules
   build_site:
     <<: *defaults
     steps:
@@ -39,10 +45,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
+            - node-modules
       - run: bundle --path vendor/bundle
       - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
       - run: cd ~/repo
-      - run: npm install
       - run: npx gulp
       - persist_to_workspace:
           root: .
