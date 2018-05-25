@@ -16,7 +16,7 @@ This is a continuation of part 1: [Getting Started with Loggly](/2015/03/loggly-
 
 Note: Apparently waiting hours for account generation isn’t a thing according to the fine folks on twitter @loggly.
 
-{% twitter https://twitter.com/loggly/status/576938047004024832 %}
+{%- twitter https://twitter.com/loggly/status/576938047004024832 -%}
 
 Now that we’re signed up, let’s get down to the good stuff!
 

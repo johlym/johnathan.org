@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include header-html.html %}
+{%- include header-html.html -%}
 <body>
   <div class="container">
-  {% include header-container.html %}
+  {%- include header-container.html -%}
     <div class="main">
       <article class="post">
         <h1 class="post-title"><a href="{{ post.url }}">{{ page.title }}</a></h1>
@@ -11,9 +11,9 @@
         {{ content }}
         </div>
       </article>
-      {% include newsletter.html %}    
+      {%- include newsletter.html -%}    
     </div>
   </div>
-  {% include footer.html %}
+  {%- include footer.html -%}
 </body>
 </html>

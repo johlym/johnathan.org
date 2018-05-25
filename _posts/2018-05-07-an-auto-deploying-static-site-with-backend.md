@@ -27,9 +27,9 @@ This led me to self-host WordPress. I enjoy setting up and maintaining servers a
 
 I would vouch for [Digital Ocean](https://m.do.co/c/b3e840db07ba) all day long, though. They're great people to work with--I know at least one of them personally--and their UI is prefect for my needs.
 
-{% note success %}
+{%- note success -%}
 **Side note:** use that link and you'll get $10 in credit when you sign up. That's 2 months of their entry VPS (1GB RAM) for free.
-{% endnote %}
+{%- endnote -%}
 
 I had to really think about my plan. If I was going to go back to static, I needed to pick a tool that I wouldn't end up hating six months from now. My answer was actually several tools.
 

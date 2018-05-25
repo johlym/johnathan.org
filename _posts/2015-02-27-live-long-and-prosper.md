@@ -9,7 +9,7 @@ permalink: "/2015/02/live-long-and-prosper.html"
 categories:
 - Blog
 ---
-{% twitter https://twitter.com/TheRealNimoy/status/569762773204217857 %}
+{%- twitter https://twitter.com/TheRealNimoy/status/569762773204217857 -%}
 
 Rest in Peace, Spock.
 

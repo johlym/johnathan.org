@@ -6,17 +6,17 @@
   </div>
   <div class="navigation">
     <ul class="menu">
-      {% for item in site.menus.header %}
+      {%- for item in site.menus.header -%}
       <li class="menu-item menu-item-{{ item.identifier }}">
         <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
       </li>
-      {% endfor %} 
+      {%- endfor -%} 
       <li class="menu-item menu-item-{{ item.identifier }}">
         <a href="https://github.com/johlym" rel="me" target="_blank">GitHub</a>
       </li>
     </ul>
   </div>
   <div class="ad">
-    {% include ad.html %}
+    {%- include ad.html -%}
   </div>
 </div>

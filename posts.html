@@ -7,35 +7,35 @@ layout: page
 <p>
   This is everything I've written in reverse-chronological order. 
 </p>
-{% assign post_years = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{%- assign post_years = site.posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
 <div class="all-posts">
-  {% for year in post_years %}
-  {% assign post_months = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+  {%- for year in post_years -%}
+  {%- assign post_months = year.items | group_by_exp:"post", "post.date | date: '%m'" -%}
   <div class="single-year">
     <div class="year-number">
       {{ year.name }}
     </div>
-    {% for month in post_months %}
-    {% assign friendly = month.name %}
+    {%- for month in post_months -%}
+    {%- assign friendly = month.name -%}
     <div class="single-month">
       <div class="month-name">
-          {% case friendly %}
-            {% when '01' %}January
-            {% when '02' %}February
-            {% when '03' %}March
-            {% when '04' %}April
-            {% when '05' %}May
-            {% when '06' %}June
-            {% when '07' %}July
-            {% when '08' %}August
-            {% when '09' %}September
-            {% when '10' %}October
-            {% when '11' %}November
-            {% when '12' %}December
-          {% endcase %}
+          {%- case friendly -%}
+            {%- when '01' -%}January
+            {%- when '02' -%}February
+            {%- when '03' -%}March
+            {%- when '04' -%}April
+            {%- when '05' -%}May
+            {%- when '06' -%}June
+            {%- when '07' -%}July
+            {%- when '08' -%}August
+            {%- when '09' -%}September
+            {%- when '10' -%}October
+            {%- when '11' -%}November
+            {%- when '12' -%}December
+          {%- endcase -%}
         </div>
         <div class="month-posts">
-          {% for post in month.items %}
+          {%- for post in month.items -%}
           <div class="month-post">
             <div class="month-post-meta">
               <h3 class="month-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -43,10 +43,10 @@ layout: page
             </div>
             <div class="month-post-excerpt">{{ post.excerpt }}</div>
           </div>
-          {% endfor %}
+          {%- endfor -%}
         </div>
     </div>
-    {% endfor %}
+    {%- endfor -%}
   </div>
-  {% endfor %}
+  {%- endfor -%}
 </div>

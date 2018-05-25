@@ -71,9 +71,9 @@ The default is 1080p and that's where I left it. Examining a 5 minute clip, the 
 
 The videos are decent. The quality isn't super great, but the dynamic range (differences between light and dark) are pretty good. The morning of my writing this review, I took a drive. The timestamp is off, but it was at 9:33 AM. Depending on the angle, license plates weren't always legible, which was unfortunate. I suspect legibility will be limited to those directly in front of the camera or when the sky isn't _so_ bright. 
 
-{% note info %}
+{%- note info -%}
 I have yet to test it at night. I'll follow up when I do. Here are a couple clips. The first is from what I was still parked. Your browser doesn't support HTML5 video.  And the second from when I was driving (taken around the same time as the screenshot above). Your browser doesn't support HTML5 video. 
-{% endnote %}
+{%- endnote -%}
 
 ### Settings
 
