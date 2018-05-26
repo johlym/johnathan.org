@@ -18,6 +18,7 @@ html {
   .header {
     min-height: 50px;
     @include globalposition;
+    padding-top:24px;
     display: flex;
     @include respond-to('mobile') {
       flex-direction: column;
@@ -29,11 +30,12 @@ html {
     .site-title {
       display: flex;
       flex-direction: column;
+      justify-content: start;
       @include respond-to('mobile') {
         flex-direction: row;
+        justify-content: center;
       }
-      justify-content: center;
-      order: 0;
+      order: 1;
       @include respond-to('mobile') {
         order: 1;
       }
@@ -41,6 +43,7 @@ html {
       align-self: stretch;
       font-size: 1.25em;
       font-weight: normal;
+      margin-top: 0.25em;
       .title-link {
         background: linear-gradient(to bottom, transparent 0%, transparent 25%, #ffe96f 25%, #ffe96f 75%, transparent 75%);
         &:hover {
@@ -54,7 +57,7 @@ html {
 
     }
     .navigation {
-      order: 0;
+      order: 2;
       @include respond-to('mobile') {
         order: 2;
       }
@@ -63,8 +66,8 @@ html {
       text-align: center;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      margin-top: 1em;
+      justify-content: auto;
+      margin-top: 0.5em;
       .menu {
         margin: 0 auto;
         padding: 0;
@@ -84,18 +87,41 @@ html {
       }
     }
     .ad {
-      order: 0;
+      order: 3;
       @include respond-to('mobile') {
-        order: 0;
+        order: 3;
       }
       flex: 0 1 auto;
       flex-direction: column;
-      justify-content: center;
+      justify-content: auto;
+      @include respond-to('mobile') {
+        justify-content: center;
+        text-align: center;
+      }
       font-size: 0.8em;
       text-align: right;
-      margin-top: 1em;
-      a {
+      .head-btn-support {
+        -webkit-border-radius: 4;
+        -moz-border-radius: 4;
+        border-radius: 4px;
+        font-family: Arial;
+        padding: 10px;
         color: #333;
+        border: 0;
+        background: rgb(208,208,208);
+        background: linear-gradient(0deg, rgba(208,208,208,1) 0%, rgba(240,240,240,1) 100%);
+        text-decoration: none;
+        display: inline-block;
+        i {
+          color: #ff0000;
+        }
+        @include respond-to('mobile') {
+          background: none;
+          color: #333;
+          &::after {
+            content: " ( ͡° ͜ʖ ͡°)"
+          }
+        }
       }
       img {
         display: block;
@@ -312,15 +338,28 @@ html {
                   margin-bottom: 10px;
 
                 }
-                .btn {
+                .btn-email {
+                  -webkit-border-radius: 4;
+                  -moz-border-radius: 4;
+                  border-radius: 4px;
+                  font-family: Arial;
+                  padding: 10px;
+                  color: #fff;
+                  border: 0;
+                  background: rgb(1,85,137);
+                  background: linear-gradient(0deg, rgba(1,85,137,1) 0%, rgba(93,202,252,1) 100%);
+                  text-decoration: none;
+                  margin-bottom: -7px;
+                }
+                .btn-donate {
                   -webkit-border-radius: 4;
                   -moz-border-radius: 4;
                   border-radius: 4px;
                   font-family: Arial;
                   color: #fff;
-                  background: #333;
+                  background: rgb(0,149,25);
+                  background: linear-gradient(0deg, rgba(0,149,25,1) 0%, rgba(12,223,47,1) 100%);
                   padding: 10px;
-                  border: solid #000 1px;
                   text-decoration: none;
                   margin-bottom: -7px;
                 }
