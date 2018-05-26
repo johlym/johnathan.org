@@ -10,9 +10,9 @@
         {%- if page.excerpt -%}
         <div class="excerpt">{{ page.excerpt }}</div>
         {%- endif -%}
-        <span class="author">
+        <div class="author">
             <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
-        </span>
+        </div>
         <div class="content">
         {{ page.content }}
         <hr class="ending">
@@ -58,26 +58,26 @@
         
         {%- include old-content.html -%}
         </div>
-        <span class="tags">
+        <div class="tags">
         {%- if page.categories.size > 0 -%}
           {%- assign cat_list = page.categories | sort -%}
-          filed under: 
+          filed under:&nbsp;
           {%- for category in cat_list -%}
           {%- if forloop.last -%}<a href="/category/{{ category | downcase }}.html" class="tag">{{ category }}</a>
           {%- else -%}<a href="/category/{{ category | downcase }}.html" class="tag last">{{ category }}</a>&nbsp;/&nbsp;
           {%- endif -%}
           {%- endfor -%} 
         {%- endif -%}
-        </span><br />
-        <span class="tags">
+        </div>
+        <div class="tags">
         {%- if page.tags.size > 0 -%}
           {%- assign cat_list = page.tags | sort -%}
-          more about: 
+          more about:&nbsp;  
           {%- for tag in cat_list -%}
           <a href="/tag/{{ tag | slugify }}.html" class="tag">{%- if forloop.last -%}{{ tag }}</a>{%- else -%}{{ tag }}</a>&nbsp;/&nbsp;{%- endif -%}
           {%- endfor -%} 
         {%- endif -%}
-        </span>
+        </div>
         {%- include content_ad.html -%}
       </article>
       <div class="footer-things">

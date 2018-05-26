@@ -12,13 +12,13 @@
     {%- if post.excerpt -%}
     <div class="excerpt">{{ post.excerpt }}</div>
     {%- endif -%}
-    <span class="author">
+    <div class="author">
         <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
-    </span>
+    </div>
     <div class="content">
     {{ post.content }}
     </div>
-    <span class="tags">
+    <div class="tags">
       {%- if post.tags.size > 0 -%}
         {%- assign cat_list = post.tags | sort -%}
         more about: 
@@ -28,7 +28,7 @@
         {%- else -%}{{ tag }}</a>&nbsp;/&nbsp;
         {%- endif -%}
         {%- endfor -%} 
-      {%- endif -%}</span>
+      {%- endif -%}</div>
     
   </article>
   {%- endfor -%}
