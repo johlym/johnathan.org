@@ -427,6 +427,7 @@ html {
         align-content: stretch;
         align-items: stretch;
         margin-top: 2em;
+        @include globalcontentwidth;
         .single-year {
           flex: 0 1 auto;
           display: flex;
