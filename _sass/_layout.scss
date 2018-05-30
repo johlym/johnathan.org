@@ -190,6 +190,9 @@ html {
             width: 100%;
           }
         }
+        form {
+          @include globalcontentwidth;
+        }
         blockquote {
           border-left: 5px solid #91e5ff;
           padding-left: 10px;
