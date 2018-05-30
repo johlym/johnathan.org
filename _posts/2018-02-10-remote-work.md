@@ -5,8 +5,7 @@ date: 2018-02-11 04:27:35 +0000
 author: Johnathan Lyman
 layout: post
 permalink: "/2018/02/remote-work.html"
-
-
+excerpt: I love it.
 image: "/assets/images/2018/02/remote_office_not_required-150x150.jpg"
 categories:
 - Books

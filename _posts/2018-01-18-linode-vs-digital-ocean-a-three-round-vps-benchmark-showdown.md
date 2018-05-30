@@ -6,8 +6,7 @@ author: Johnathan Lyman
 layout: post
 
 permalink: "/2018/01/linode-vs-digital-ocean-a-three-round-vps-benchmark-showdown.html"
-
-
+excerpt: A race to the bottom
 algolia_searchable_posts_records_count:
 - '7'
 categories:

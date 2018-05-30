@@ -6,8 +6,7 @@ author: Johnathan Lyman
 layout: post
 
 permalink: "/2018/01/coming-soon-the-mega-ultra-super-vps-benchmark-comparo.html"
-
-
+excerpt: A fight to the kill -9
 algolia_searchable_posts_records_count:
 - '1'
 categories:

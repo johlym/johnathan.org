@@ -4,10 +4,8 @@ title: Where Work Happens
 date: 2018-02-20 17:53:31 +0000
 author: Johnathan Lyman
 layout: post
-
 permalink: "/2018/02/where-work-happens.html"
-
-
+excerpt: One of my favorite books
 image: "/assets/images/2018/02/tg1z_ljkwkk-150x150.jpg"
 categories:
 - Books
