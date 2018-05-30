@@ -32,7 +32,7 @@ fields:
   name: tags
   label: Tags
 pages:
-- _posts/the-static-site-book.md
+- _posts/2018-05-30-the-static-site-book.md
 - _posts/2018-05-22-a-week-of-cloudflare-argo.md
 - _posts/2018-05-15-the-apple-class-action-lawsuit.md
 - _posts/2018-04-26-yet-another-re-design.md
