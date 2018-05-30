@@ -7,7 +7,8 @@ excerpt: Wandering into uncharted territory in hopes of scratching a long-runnin
 image: "/assets/uploads/2018/05/30/empty-notebook-with-pen.jpg"
 category:
 - Blog
-tags: []
+tags:
+- The Static Site Book
 ---
 Over the last few weeks, I've spent a not-insignificant amount of time thinking about how I wanted to convey all the information and tips I have to share about building a static site and making it good, making it something you want to maintain, and even going so far as to sprinkle a bit of enjoyment on top.
 
@@ -22,5 +23,7 @@ Here's what I know I want to include for sure:
 * A few example sites and how to build them from start to finish using what we've just learned.
 
 As far as a release date, I can only imagine it'll be somewhere between the end of 2018 and all of 2019. I've never done this before so it'll likely take a lot longer than more seasoned writers.
+
+The working title is simply: _The Static Site Book_.
 
 If there's anything in particular you'd like to see, [please let me know](/contact.html). I'd love to have the community's help in making this happen.
