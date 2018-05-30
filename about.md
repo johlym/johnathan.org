@@ -9,7 +9,7 @@ My name's Johnathan and I'm an Engineer, blogger, and this is my digital home. I
 ## The Tools I Use
 
 * Blog engine: ~~Ghost~~ ~~WordPress~~ Jekyll, Forestry.io, CircleCI
-* Hosting: [DigitalOcean](/goto/digitalocean)
+* Hosting: [DigitalOcean](https://johnathan.org/goto/digitalocean)
 * DNS: [Cloudflare](//cloudflare.com))
 * Computering: [2015 15" Macbook Pro](https://apple.com)
 * Editor: Visual Studio Code
