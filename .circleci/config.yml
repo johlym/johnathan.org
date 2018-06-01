@@ -56,10 +56,10 @@ jobs:
               --data '{"purge_everything":true}'; 
             fi
       - save_cache:
-        key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-        paths:
-          - ~/repo/vendor/bundle
-          - ~/repo/node_modules
+          key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
+          paths:
+            - ~/repo/vendor/bundle
+            - ~/repo/node_modules
 
 workflows:
   version: 2
