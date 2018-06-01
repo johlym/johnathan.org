@@ -9,4 +9,230 @@ permalink: "/2016/02/super-bowl-50-ad-review.html"
 categories:
 - Blog
 ---
-<div class="kg-card-markdown"><p>This is my second season of giving brief reviews of Super Bowl ads. <a href="https://johnathan.org/2015/02/04/super-bowl-commericals/">Last year</a> I picked out only ones I liked. This year, I’m going through them all and giving them a rating out of 10 points and why. Here we go…</p><p><strong><em>Note:</em></strong>* I gave up on this post about half-way through because the ads were overall pretty boring and I was falling asleep. The next day, I didn’t have any desire to continue, but in the back of my mind I still wanted to post this since I did put <strong>some</strong> time into it. What you see here is as far as it’ll go.*</p><h3 id="hyundaigenesiswithkevinhart"><strong>Hyundai Genesis with Kevin Hart</strong></h3><p><a href="https://www.youtube.com/watch?v=-R_483zeVF8">https://www.youtube.com/watch?v=-R_483zeVF8</a></p><p>I can see myself being like this if I had a teenage daughter. The only thing that bothered me about this commercial was that it seemed like Hyundai is admitting this is all the feature is good for. I’m sure it’ll be widely used in this fashion, but at least someone has to have genuinely forgotten where they parked, right?</p><p><strong>Score:</strong> 7/10</p><h3 id="michelobultrabreathe">Michelob ULTRA: Breathe</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/-cYFe2c2Zfw?feature=oembed" width="525"></iframe><p>The last thing you want to do after working out is drink a beer. If anyone was going to drink a beer after a workout, though, it wouldn’t be this.</p><p>**Score: **2/10</p><h3 id="snickerswithwilliamdefoe">Snickers with William Defoe</h3><p><a href="https://www.youtube.com/watch?v=WhfntLl6xx0">https://www.youtube.com/watch?v=WhfntLl6xx0</a></p><p>Always cool to see William Defoe. Seeing him in a dress? Amusing. The top comment on this video as of this post:</p><p><img src="/assets/images/2016/02/Screen-Shot-2016-02-08-at-11.19.02-PM-845x121.png?resize=525%2C75" alt="Screen Shot 2016-02-08 at 11.19.02 PM"></img></p><p><strong>Score:</strong> 7/10</p><p><strong>Comment:</strong> 10/10</p><h3 id="sofigreat">SoFi: Great</h3><p><a href="https://www.youtube.com/watch?v=C-CP8BEKUgI">https://www.youtube.com/watch?v=C-CP8BEKUgI</a></p><p>Gr8?</p><p><strong>Score:</strong> 3/10</p><h3 id="avocadosfrommexicoavosinspace">Avocados From Mexico: #AvosInSpace</h3><p><a href="https://www.youtube.com/watch?v=1ndPEQCoSzk">https://www.youtube.com/watch?v=1ndPEQCoSzk</a></p><p>“They had Chia Pets, just like we do.” Enough said. Will someone think of Scott Baio?</p><p>**Score: **8.5/10</p><h3 id="hyundaithechase">Hyundai: The Chase</h3><p><a href="https://www.youtube.com/watch?v=LT6n1HcJOio">https://www.youtube.com/watch?v=LT6n1HcJOio</a></p><p>“It’s my cheat day.” Good, because this commercial was crap. No one’s going to take their basic sedan into the woods, let alone try to re-enact The Revenant.</p><p>**Score: **4/10</p><h3 id="apartmentscommovinonup"><a href="http://Apartments.com">Apartments.com</a>: #MovinOnUp</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/L6OmHbZ2vHs?feature=oembed" width="525"></iframe><p>Jeff Goldblum with a choir? Ok. Weezy? No. And yes, beans will burn on the grill…</p><p><strong>Score:</strong> 6/10</p><h3 id="mobilestrikearnoldsfight">Mobile Strike: Arnold’s Fight</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/nArguXUt52c?feature=oembed" width="525"></iframe><p>We’re seriously still paying attention to this game? Time for a new one. But since we have some terminator touches, I’ll give it a pass.</p><p><strong>Score:</strong> 6/10</p><h3 id="paypalnewmoney">PayPal: New Money</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/1dF9t_xQGks?feature=oembed" width="525"></iframe><p>A company sort-of owned by old money that charges lots of fees like old money, has old-money-quality customer service, an old-money-style hard-to-navigate website, all while advertising how they’re new money.</p><p>**Score: **5/10</p><h3 id="audir8commander">Audi R8: Commander</h3><p><a href="https://www.youtube.com/watch?v=diU_09jb4bI">https://www.youtube.com/watch?v=diU_09jb4bI</a></p><p>Neil Armstrong. Check. Audi R8. Check. Space? Check. Emotions? Check. Good one, Audi.</p><p><strong>Score:</strong> 9/10</p><h3 id="mountaindewkickstartpuppymonkeybaby">Mountain Dew Kickstart: #Puppymonkeybaby</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/ql7uY36-LwA?feature=oembed" width="525"></iframe><p>F<em>ck you, Mountain Dew, F</em>ck you. <del>Puppymonkeybaby.</del></p><p><strong>Score:</strong> 9/10</p><h3 id="marmot">Marmot</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/y3FkyPVKHPA?feature=oembed" width="525"></iframe><p>“I’m not that kind of marmot.” You say that now…</p><p><strong>Score:</strong> 6/10</p><h3 id="squarespacerealtalkwithkeyandpeele">Squarespace: Real Talk with Key and Peele</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/8nG_wVxO7EM?feature=oembed" width="525"></iframe><p>Alright. Points for Key and Peele. Points for Squarespace.</p><p><strong>Score:</strong> 7/10</p><h3 id="shocktopunfilteredtalkwithtjmiller">Shock Top: Unfiltered Talk with T.J. Miller</h3><p><a href="https://www.youtube.com/watch?v=EDDfEIq9kI4">https://www.youtube.com/watch?v=EDDfEIq9kI4</a></p><p>“I got a movie idea: this loser walks into a bar… it’s called right now.”</p><p>Truer words…</p><p><strong>Score:</strong> 6.5/10</p><h3 id="buickthebigdaybuickcascada">Buick: The Big Day: Buick Cascada</h3><p><a href="https://www.youtube.com/watch?v=cYyWq_Vads8">https://www.youtube.com/watch?v=cYyWq_Vads8</a></p><p>They call it “Cuh-skad-uh” in the commercial, but everyone will be calling it “Cascade-uh” in a week. Minus points for the crappy name.</p><p><strong>Score:</strong> 3/10</p><h3 id="dollarshaveclubzeke">Dollar Shave Club: Zeke</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/gKAObR3Zmcg?feature=oembed" width="525"></iframe><p>Heh. Too true.</p><p><strong>Score:</strong> 8/10</p><h3 id="acuransx">Acura NSX</h3><p><a href="https://www.youtube.com/watch?v=AfsZ9tXnv5M">https://www.youtube.com/watch?v=AfsZ9tXnv5M</a></p><p>Yes, please. Bonus points of Steven Tyler goes on the test drive with me.</p><p>**Score: **9/10 (10/10 for Steven Tyler on the test drive)</p><h3 id="quickenloansrocketmortgage">Quicken Loans: Rocket Mortgage</h3><p><a href="https://www.youtube.com/watch?v=QlRm6Y5iVfw">https://www.youtube.com/watch?v=QlRm6Y5iVfw</a></p><p>What if we decided to get unstuck from 1986? Whoa.</p><p>**Score: **4/10</p><h3 id="budlightthebudlightparty">Bud Light: The Bud Light Party</h3><p><a href="https://www.youtube.com/watch?v=JohgwbpQuy8">https://www.youtube.com/watch?v=JohgwbpQuy8</a></p><p>Everybody does not love Paul Rudd…. oh I see what you did there. Quoting Independence Day tends to inspire people.</p><p><strong>Score:</strong> 8/10</p><h3 id="skittlestheportrait">Skittles: The Portrait</h3><p><a href="https://www.youtube.com/watch?v=21ivbtgqJkg">https://www.youtube.com/watch?v=21ivbtgqJkg</a></p><p>More Steven Tyler… nothing wrong with that.</p><p>**Score: **6/10</p><h3 id="tmobiledroptheballs">T-Mobile: Drop the Balls</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/eI8YZdejPKg?feature=oembed" width="525"></iframe><p>There’s a puberty joke here, somewhere. We get it, T-Mobile, you want attention, too.</p><p><strong>Score:</strong> 5/10</p><h3 id="hyundairyanville">Hyundai: Ryanville</h3><p><a href="https://www.youtube.com/watch?v=Ih4VYnbm6Sw">https://www.youtube.com/watch?v=Ih4VYnbm6Sw</a></p><p>He wasn’t Deadpool at any point. Minus points.</p><p><strong>Score:</strong> 4/10</p><h3 id="cocacolacokemini">Coca-Cola: Coke Mini</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/OlZqBR3yTiw?feature=oembed" width="525"></iframe><p>Just meh. I don’t have anything else to say.</p><p><strong>Score:</strong> 5/10</p><h3 id="weathertechresources">WeatherTech: Resources</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/K9k_---XMOo?feature=oembed" width="525"></iframe><p>So… do you want an award, or something? Translated: American workers are better than every other kind of worker.</p><p>**Score: **5/10</p><h3 id="toyotathelongestchase">Toyota: The Longest Chase</h3><p><a href="https://www.youtube.com/watch?v=MYeM-8hO3hM">https://www.youtube.com/watch?v=MYeM-8hO3hM</a></p><p>Nice and slow. Would have been useful chasing that Bronco way back when. Points form making it look sick.</p><p><strong>Score:</strong> 7/10</p><h3 id="subarudogtested">Subaru: Dog Tested</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/qGkDqfdgVEQ?feature=oembed" width="525"></iframe><p>If you’re looking to get hit in the feels, this one will do it.</p><p><strong>Score:</strong> 8/10</p><h3 id="amazonechobaldwinbowl">Amazon Echo: Baldwin Bowl</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/qTz5jAn-XX8?feature=oembed" width="525"></iframe><p>Sick burn.</p><p><strong>Score:</strong> 9/10</p><h3 id="jeepportraits">Jeep: Portraits</h3><iframe allowfullscreen frameborder="0" height="394" src="https://www.youtube.com/embed/wKn5K5V7tRo?feature=oembed" width="525"></iframe><p>Another feels commercial, sorta.</p><p><strong>Score:</strong> 7/10</p><h3 id="doritosdogs">Doritos: Dogs</h3><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/uZfo7wfojeQ?feature=oembed" width="525"></iframe><p>Doritos is on point, yet again.</p><p>**Score: **9/10</p><h3 id="kfcdream">KFC: Dream</h3><p><a href="https://www.youtube.com/watch?v=C29yrzFYF4Q">https://www.youtube.com/watch?v=C29yrzFYF4Q</a></p><p>Jim Gaffigan is a natural choice.</p><p><strong>Score:</strong> 7/10</p><h3 id="turbotaxanthonyhopkins">Turbotax: Anthony Hopkins</h3><p><a href="https://www.youtube.com/watch?v=c6T3F69oK30">https://www.youtube.com/watch?v=c6T3F69oK30</a></p><p>Tony is always entertaining to watch.</p><p><strong>Score:</strong> 8/10</p><p></p><p></p><p></p><p></p></div>
+This is my second season of giving brief reviews of Super Bowl ads. [Last year](https://johnathan.org/2015/02/super-bowl-commericals.html) I picked out only ones I liked. This year, I’m going through them all and giving them a rating out of 10 points and why. Here we go…
+
+**_Note:_** I gave up on this post about half-way through because the ads were overall pretty boring and I was falling asleep. The next day, I didn’t have any desire to continue, but in the back of my mind I still wanted to post this since I did put **some** time into it. What you see here is as far as it’ll go.*
+
+### **Hyundai Genesis with Kevin Hart**
+
+[https://www.youtube.com/watch?v=-R_483zeVF8](https://www.youtube.com/watch?v=-R_483zeVF8)
+
+I can see myself being like this if I had a teenage daughter. The only thing that bothered me about this commercial was that it seemed like Hyundai is admitting this is all the feature is good for. I’m sure it’ll be widely used in this fashion, but at least someone has to have genuinely forgotten where they parked, right?
+
+**Score:** 7/10
+
+### Michelob ULTRA: Breathe
+
+The last thing you want to do after working out is drink a beer. If anyone was going to drink a beer after a workout, though, it wouldn’t be this.
+
+**Score:** 2/10
+
+### Snickers with William Defoe
+
+[https://www.youtube.com/watch?v=WhfntLl6xx0](https://www.youtube.com/watch?v=WhfntLl6xx0)
+
+Always cool to see William Defoe. Seeing him in a dress? Amusing. The top comment on this video as of this post:
+
+![Screen Shot 2016-02-08 at 11.19.02 PM](/assets/images/2016/02/Screen-Shot-2016-02-08-at-11.19.02-PM-845x121.png?resize=525%2C75)
+
+**Score:** 7/10
+
+**Comment:** 10/10
+
+### SoFi: Great
+
+[https://www.youtube.com/watch?v=C-CP8BEKUgI](https://www.youtube.com/watch?v=C-CP8BEKUgI)
+
+Gr8?
+
+**Score:** 3/10
+
+### Avocados From Mexico: #AvosInSpace
+
+[https://www.youtube.com/watch?v=1ndPEQCoSzk](https://www.youtube.com/watch?v=1ndPEQCoSzk)
+
+“They had Chia Pets, just like we do.” Enough said. Will someone think of Scott Baio?
+
+**Score:** 8.5/10
+
+### Hyundai: The Chase
+
+[https://www.youtube.com/watch?v=LT6n1HcJOio](https://www.youtube.com/watch?v=LT6n1HcJOio)
+
+“It’s my cheat day.” Good, because this commercial was crap. No one’s going to take their basic sedan into the woods, let alone try to re-enact The Revenant.
+
+**Score:** 4/10
+
+### [Apartments.com](http://Apartments.com): #MovinOnUp
+
+Jeff Goldblum with a choir? Ok. Weezy? No. And yes, beans will burn on the grill…
+
+**Score:** 6/10
+
+### Mobile Strike: Arnold’s Fight
+
+We’re seriously still paying attention to this game? Time for a new one. But since we have some terminator touches, I’ll give it a pass.
+
+**Score:** 6/10
+
+### PayPal: New Money
+
+A company sort-of owned by old money that charges lots of fees like old money, has old-money-quality customer service, an old-money-style hard-to-navigate website, all while advertising how they’re new money.
+
+**Score:** 5/10
+
+### Audi R8: Commander
+
+[https://www.youtube.com/watch?v=diU_09jb4bI](https://www.youtube.com/watch?v=diU_09jb4bI)
+
+Neil Armstrong. Check. Audi R8. Check. Space? Check. Emotions? Check. Good one, Audi.
+
+**Score:** 9/10
+
+### Mountain Dew Kickstart: #Puppymonkeybaby
+
+F_ck you, Mountain Dew, F_ck you. Puppymonkeybaby.
+
+**Score:** 9/10
+
+### Marmot
+
+“I’m not that kind of marmot.” You say that now…
+
+**Score:** 6/10
+
+### Squarespace: Real Talk with Key and Peele
+
+Alright. Points for Key and Peele. Points for Squarespace.
+
+**Score:** 7/10
+
+### Shock Top: Unfiltered Talk with T.J. Miller
+
+[https://www.youtube.com/watch?v=EDDfEIq9kI4](https://www.youtube.com/watch?v=EDDfEIq9kI4)
+
+“I got a movie idea: this loser walks into a bar… it’s called right now.”
+
+Truer words…
+
+**Score:** 6.5/10
+
+### Buick: The Big Day: Buick Cascada
+
+[https://www.youtube.com/watch?v=cYyWq_Vads8](https://www.youtube.com/watch?v=cYyWq_Vads8)
+
+They call it “Cuh-skad-uh” in the commercial, but everyone will be calling it “Cascade-uh” in a week. Minus points for the crappy name.
+
+**Score:** 3/10
+
+### Dollar Shave Club: Zeke
+
+Heh. Too true.
+
+**Score:** 8/10
+
+### Acura NSX
+
+[https://www.youtube.com/watch?v=AfsZ9tXnv5M](https://www.youtube.com/watch?v=AfsZ9tXnv5M)
+
+Yes, please. Bonus points of Steven Tyler goes on the test drive with me.
+
+**Score:** 9/10 (10/10 for Steven Tyler on the test drive)
+
+### Quicken Loans: Rocket Mortgage
+
+[https://www.youtube.com/watch?v=QlRm6Y5iVfw](https://www.youtube.com/watch?v=QlRm6Y5iVfw)
+
+What if we decided to get unstuck from 1986? Whoa.
+
+**Score:** 4/10
+
+### Bud Light: The Bud Light Party
+
+[https://www.youtube.com/watch?v=JohgwbpQuy8](https://www.youtube.com/watch?v=JohgwbpQuy8)
+
+Everybody does not love Paul Rudd…. oh I see what you did there. Quoting Independence Day tends to inspire people.
+
+**Score:** 8/10
+
+### Skittles: The Portrait
+
+[https://www.youtube.com/watch?v=21ivbtgqJkg](https://www.youtube.com/watch?v=21ivbtgqJkg)
+
+More Steven Tyler… nothing wrong with that.
+
+**Score:** 6/10
+
+### T-Mobile: Drop the Balls
+
+There’s a puberty joke here, somewhere. We get it, T-Mobile, you want attention, too.
+
+**Score:** 5/10
+
+### Hyundai: Ryanville
+
+[https://www.youtube.com/watch?v=Ih4VYnbm6Sw](https://www.youtube.com/watch?v=Ih4VYnbm6Sw)
+
+He wasn’t Deadpool at any point. Minus points.
+
+**Score:** 4/10
+
+### Coca-Cola: Coke Mini
+
+Just meh. I don’t have anything else to say.
+
+**Score:** 5/10
+
+### WeatherTech: Resources
+
+So… do you want an award, or something? Translated: American workers are better than every other kind of worker.
+
+**Score:** 5/10
+
+### Toyota: The Longest Chase
+
+[https://www.youtube.com/watch?v=MYeM-8hO3hM](https://www.youtube.com/watch?v=MYeM-8hO3hM)
+
+Nice and slow. Would have been useful chasing that Bronco way back when. Points form making it look sick.
+
+**Score:** 7/10
+
+### Subaru: Dog Tested
+
+If you’re looking to get hit in the feels, this one will do it.
+
+**Score:** 8/10
+
+### Amazon Echo: Baldwin Bowl
+
+Sick burn.
+
+**Score:** 9/10
+
+### Jeep: Portraits
+
+Another feels commercial, sorta.
+
+**Score:** 7/10
+
+### Doritos: Dogs
+
+Doritos is on point, yet again.
+
+**Score:** 9/10
+
+### KFC: Dream
+
+[https://www.youtube.com/watch?v=C29yrzFYF4Q](https://www.youtube.com/watch?v=C29yrzFYF4Q)
+
+Jim Gaffigan is a natural choice.
+
+**Score:** 7/10
+
+### Turbotax: Anthony Hopkins
+
+[https://www.youtube.com/watch?v=c6T3F69oK30](https://www.youtube.com/watch?v=c6T3F69oK30)
+
+Tony is always entertaining to watch.
+
+**Score:** 8/10

@@ -48,7 +48,7 @@ Get ready. This American is about to get **Cultured**.
 
 
 
-[5]: https://johnathan.org/ibb-lucozade/
-[6]: https://johnathan.org/ibb-irn-bru/
-[7]: https://johnathan.org/ibb-grapetiser/
-[8]: https://johnathan.org/ibb-appletiser/
+[5]: https://johnathan.org/2016/05/ibb-lucozade.html
+[6]: https://johnathan.org/2016/05/ibb-irn-bru.html
+[7]: https://johnathan.org/2016/06/ibb-grapetiser.html
+[8]: https://johnathan.org/2016/07/ibb-appletiser.html

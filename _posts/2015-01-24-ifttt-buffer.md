@@ -17,7 +17,7 @@ Let’s be honest. The year is 2015 and nobody wants to do things by hand or man
 
 > “_live fast, die young, robots do it well._“
 
-I’ll admit, I like speeding up the process of sharing what I’ve written but I like controlling it a bit more than some. Here’s how I do it. You’ll want to create an account with [IFTTT][2] and [Buffer][3] if you haven’t already. IFTTT stands for **IF T**his, **T**hen **T**hat. The premise is that you can take data being expelled from one service, and based on certain criteria, do something with it via another. Things like “Text me with the daily weather report at 5AM” are easy and, well, kind of cheesy. If you become a power user of [IFT.TT][4] or already are, you’ll know that there’s so much more you can do with the service like auto-tweet breaking news stories from news sources or trigger your Philips Hue home lighting to change color when a storm warning comes into effect. In my case, I want to sync IFTTT with my WordPress install. To start, I’ll need to create a new recipe and click on the blue _this_ link (A) and choose the WordPress trigger channel (B). This will be the source for the data that IFTT uses. 
+I’ll admit, I like speeding up the process of sharing what I’ve written but I like controlling it a bit more than some. Here’s how I do it. You’ll want to create an account with IFT.TT and Buffer if you haven’t already. IFT.TT stands for **IF T**his, **T**hen **T**hat. The premise is that you can take data being expelled from one service, and based on certain criteria, do something with it via another. Things like “Text me with the daily weather report at 5AM” are easy and, well, kind of cheesy. If you become a power user of [IFT.TT][4] or already are, you’ll know that there’s so much more you can do with the service like auto-tweet breaking news stories from news sources or trigger your Philips Hue home lighting to change color when a storm warning comes into effect. In my case, I want to sync IFTTT with my WordPress install. To start, I’ll need to create a new recipe and click on the blue _this_ link (A) and choose the WordPress trigger channel (B). This will be the source for the data that IFTT uses. 
 
 [![ifttt_step1](/assets/images/2015/01/ifttt_step1.jpg?resize=525%2C328&ssl=1)][5] 
 
@@ -39,8 +39,6 @@ There are a couple things to keep in mind when setting this up. Anything pushed 
 
 It’s that simple. If you have account with IFTTT and Buffer already set up, this will take you thirty seconds to do. You’ll find this thirty seconds will save you time in the long run and will become something that you don’t even think about at the end of the day. Sure you could use WordPress plugins, too, and that’s all fine and dandy. I’m not stopping you! This is how I like to do it and I figured someone out there might like to know. Thanks for stopping by, have a good one!
 
-[1]: http://go.jlyman.net/1JnTw3K
-[2]: http://go.jlyman.net/1Cpvd3e "IFTTT"
 [3]: https://bufferapp.com
 [4]: http://IFT.TT
 [5]: /assets/images/2015/01/ifttt_step1.jpg?ssl=1

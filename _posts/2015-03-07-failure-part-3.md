@@ -9,7 +9,7 @@ permalink: "/2015/03/failure-part-3.html"
 categories:
 - Blog
 ---
-Recently, I discussed a recent failure of mine that hit home pretty hard. You can read [part one][1] and [part two][2], first, if you’d like, but it’s not necessary. Today another important event happened that goes well with this impromptu series I’ve started and I want to talk about it.
+Recently, I discussed a recent failure of mine that hit home pretty hard. You can read ~~part one~~ and [part two][2], first, if you’d like, but it’s not necessary. Today another important event happened that goes well with this impromptu series I’ve started and I want to talk about it.
 
 Every day contains a new measure of varying successes. From the very beginning whether we get up in the morning on time and how many times we hit the snooze button, to whether we make it to work on time because of an accident on the freeway, to if we prepared enough for the meeting with the big cheeses.
 
@@ -60,5 +60,4 @@ The best things you have in life are the ones you worked the hardest for. You’
 
 The next time you tell yourself you failed, tell yourself instead that you’ll be better at it tomorrow. Yoda tells us there is no “try.” That cat was right.
 
-[1]: https://johnathan.org/p/failure "Recovering from Failure"
-[2]: https://johnathan.org/p/failure-part-2 "Recovering From Failure, Part 2"
+[2]: https://johnathan.org/2015/03/failure-part-2.html "Recovering From Failure, Part 2"

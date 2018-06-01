@@ -23,7 +23,7 @@ With those two elements combined, I had a setup that I didn’t really appreciat
 
 For those who say that new gear won’t help you take better photos, they might be wrong if the old gear was of retiring age.
 
-When it comes to actually taking photos, however, there’s no amount of gear that will make me get out and shoot. I have to want to. With the gear half of my desire out of the way, all I have left is myself to fight with. For 2015, I’m attempting to apply the [same goals I set up for my writing][7] to my photography and have broken them down as such:
+When it comes to actually taking photos, however, there’s no amount of gear that will make me get out and shoot. I have to want to. With the gear half of my desire out of the way, all I have left is myself to fight with. For 2015, I’m attempting to apply the same goals I set up for my writing to my photography and have broken them down as such:
 
 1.  Shoot at least twice a week
     
@@ -48,4 +48,3 @@ If I ever want to make this something I do more regularly and possibly make mone
 [4]: http://en.wikipedia.org/wiki/Crop_factor
 [5]: http://www.usa.canon.com/cusa/consumer/products/cameras/slr_cameras/eos_6d
 [6]: http://www.usa.canon.com/cusa/consumer/products/cameras/ef_lens_lineup/ef_16_35mm_f_4l_is_usm
-[7]: https://johnathan.org/p/203/smart "Being S.M.A.R.T about Blogging Goals for the New Year"
