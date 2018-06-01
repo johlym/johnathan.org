@@ -21,58 +21,32 @@ jobs:
       - restore_cache:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-      - run: bundle install --path vendor/bundle --jobs 4 --retry 3
-      - run: cd ~/repo && npm install
-      - run: bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
-      - run: cd ~/repo && npx gulp
-      - save_cache:
-          key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-          paths:
-            - ~/repo/vendor/bundle
-      - persist_to_workspace:
-          root: .
-          paths:
-            - vendor/bundle
-            - _site
-  test_html:
-    <<: *defaults
-    steps:
-      - checkout
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-      - run: bundle --path vendor/bundle
-      - run: bundle exec htmlproofer ./_site --check-html --checks_to_ignore 'ImageCheck' --disable-external --log_level=debug --empty_alt_ignore
-  test_links:
-    <<: *defaults
-    steps:
-      - checkout
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-      - run: bundle --path vendor/bundle
-      - run: bundle exec htmlproofer ./_site --empty_alt_ignore --checks_to_ignore 'ImageCheck' --only_4xx --http-status-ignore "429" --url-ignore "/amazon.com/,/www.amazon.com/,/pro.fontawesome.com/,/amzn.to/,/site-archives/" --log_level=debug
-  deploy:
-    <<: *defaults
-    steps:
-      - checkout
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
-      - run: bundle --path vendor/bundle
-      - run: sudo apt install rsync
       - run: 
-          name: Deploy to prod server
+          name: Install Rubygems if necessary
+          command: |
+            bundle install --path vendor/bundle --jobs 4 --retry 3
+      - run: 
+          name: Install Node modules if necessary 
+          command: |
+            cd ~/repo && npm install
+      - run: 
+          name: Install Rsync
+          command: |
+            sudo apt install rsync
+      - run: 
+          name: Build site
+          command: |
+            bundle exec jekyll build --profile --verbose --destination /home/circleci/repo/_site
+      - run:
+          name: Install and run Gulp
+          command: |
+            cd ~/repo && npx gulp
+      - run: 
+          name: Deploy to prod server if triggered via master branch change
           command: |
             if [ $CIRCLE_BRANCH = 'master' ]; then rsync -e "ssh -o StrictHostKeyChecking=no" -va --delete ~/repo/_site deploy@159.65.70.80:/var/www/johnathan.org/static; fi
       - run: 
-          name: Bust Cloudflare cache
+          name: Bust Cloudflare cache if triggered via master branch change
           command: |
             if [ $CIRCLE_BRANCH = 'master' ]; then 
               curl -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
@@ -81,20 +55,8 @@ jobs:
               -H "Content-Type: application/json" \
               --data '{"purge_everything":true}'; 
             fi
-
-
-workflows:
-  version: 2
-  build_test_deploy:
-    jobs:
-      - setup_and_build
-      - test_html:
-          requires:
-            - setup_and_build
-      - test_links:
-          requires:
-            - setup_and_build
-      - deploy:
-          requires:
-            - test_html
-            - test_links
+      - save_cache:
+        key: v1-bundle-{{ checksum "Gemfile.lock" }}-{{ checksum "package.json" }}
+        paths:
+          - ~/repo/vendor/bundle
+          - ~/repo/node_modules
