@@ -190,6 +190,15 @@ html {
             width: 100%;
           }
         }
+        ul.task-list, ol.task-list {
+          padding-left: 0;
+          list-style: none;
+          li.task-list-item {
+            input.task-list-item-checkbox {
+              margin-right: 1em;
+            }
+          }
+        }
         form {
           @include globalcontentwidth;
         }
