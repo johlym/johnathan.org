@@ -13,3 +13,8 @@ My name's Johnathan and I'm an Engineer, blogger, and this is my digital home. I
 * DNS: [Cloudflare](//cloudflare.com))
 * Computering: [2015 15" Macbook Pro](https://apple.com)
 * Editor: Visual Studio Code
+
+You might find these pages interesting, too:
+
+* [Various resourcs and helpful things](/resources.html)
+* [Old site archives](/site-archives)
