@@ -1,6 +1,6 @@
 ---
 title: Deploying A Jekyll Static Site with Circle CI
-date: 2018-05-31 23:42:00 -0700
+date: 2018-05-31 23:41:00 -0700
 author: Johnathan Lyman
 layout: post
 permalink: "/2018/05/deploying-jekyll-with-circle-ci.html"
