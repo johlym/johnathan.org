@@ -9,4 +9,8 @@ permalink: "/2015/10/monsoon-ii.html"
 categories:
 - Blog
 ---
-<div class="kg-card-markdown"><iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/Xc7d7F5T6rI?feature=oembed" width="525"></iframe><p>If you only watch one video, today, make it this one. In 4K.</p><p>by <a href="http://mikeolbinski.com">Mike Olbinski</a>.</p></div>
+<iframe allowfullscreen frameborder="0" height="295" src="https://www.youtube.com/embed/Xc7d7F5T6rI?feature=oembed" width="525"></iframe>
+
+If you only watch one video, today, make it this one. In 4K.
+
+by [Mike Olbinski](http://mikeolbinski.com).

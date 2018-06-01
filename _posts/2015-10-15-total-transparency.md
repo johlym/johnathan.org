@@ -9,4 +9,6 @@ permalink: "/2015/10/total-transparency.html"
 categories:
 - Blog
 ---
-<div class="kg-card-markdown"><p>I’m a huge fan of transparency. To see <a href="https://baremetrics.com/open">BareMatrics</a> supporting ten companies’ pushing for transparency in their business is awesome. Check out their <a href="https://baremetrics.com/open">site</a> and see which ten startups are totally open about how they’re doing.</p><p><a href="https://baremetrics.com/open"><img src="/assets/images/2015/10/ScreenShot2015-10-15at9.18.22AM.png?resize=525%2C307&amp;ssl=1" alt></img></a></p></div>
+I’m a huge fan of transparency. To see [BareMatrics](https://baremetrics.com/open) supporting ten companies’ pushing for transparency in their business is awesome. Check out their [site](https://baremetrics.com/open) and see which ten startups are totally open about how they’re doing.
+
+[![](/assets/images/2015/10/ScreenShot2015-10-15at9.18.22AM.png?resize=525%2C307&ssl=1)](https://baremetrics.com/open)
