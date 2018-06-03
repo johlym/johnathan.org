@@ -21,3 +21,6 @@ shortlinks:
 - title: NordVPN
   key: nordvpn2
   destination: https://go.nordvpn.net/aff_c?offer_id=15&aff_id=13262&url_id=902&source=johnathan-org-end-of-post-placement
+- title: Audible.com
+  key: audible
+  destination: https://www.amazon.com/gp/product/B00NB86OYE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NB86OYE&linkCode=as2&tag=johnatlymanco-20&linkId=da0ee52d0c82285b87c732e3b5e554a3
