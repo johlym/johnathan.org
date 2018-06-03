@@ -85,7 +85,7 @@ jekyll-archives:
     category: '/category/:name.html'
 
 page_gen:
-  - data: shortlinks
+  - data: shortlinks.shortlinks
     template: redirect
     name: key
     dir: goto

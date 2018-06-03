@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-{{ site.data.footer_ads | jsonify }}
+{{ site.data.footer_ads.ads | jsonify }}
