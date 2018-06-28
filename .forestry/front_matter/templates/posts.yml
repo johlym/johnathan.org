@@ -33,8 +33,8 @@ fields:
   label: Tags
 pages:
 - _posts/2018-05-30-the-static-site-book.md
-- _posts/2018-05-22-a-week-of-cloudflare-argo.md
-- _posts/2018-05-15-the-apple-class-action-lawsuit.md
-- _posts/2018-04-26-yet-another-re-design.md
-- _posts/2018-05-07-an-auto-deploying-static-site-with-backend.md
 - _posts/2018-05-08-easy-redirect-links-within-jekyll.md
+- _posts/2018-05-07-an-auto-deploying-static-site-with-backend.md
+- _posts/2018-04-26-yet-another-re-design.md
+- _posts/2018-05-15-the-apple-class-action-lawsuit.md
+- _posts/2018-05-22-a-week-of-cloudflare-argo.md
