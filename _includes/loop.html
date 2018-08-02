@@ -16,7 +16,12 @@
         <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
     </div>
     <div class="content">
-    {{ post.content }}
+      {%- if post.opening -%}
+      <p>{{ post.opening }}</p>
+      <p><span class="read-more"><a href="{{ post.url }}">Read More</a></span></p>
+      {%- else -%}}
+      {{ post.content }}
+      {%- endif -%}
     </div>
     <div class="tags">
       {%- if post.tags.size > 0 -%}
