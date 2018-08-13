@@ -5,11 +5,11 @@ date: 2018-08-13 17:00:00 +0000
 excerpt: You can't make this stuff up
 image: ''
 category:
-- Linked
 - Technology
 tags:
 - voting
 - blockchain
+- linked
 
 ---
 Terry Nguyen writing for [The Washington Post](https://www.washingtonpost.com/technology/2018/08/10/west-virginia-pilots-mobile-blockchain-voting-app-overseas-voters-november-election/):
