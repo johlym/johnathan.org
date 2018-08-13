@@ -5,6 +5,7 @@ date: 2018-08-13 17:00:00 +0000
 excerpt: You can't make this stuff up
 image: ''
 category:
+- Linked
 - Technology
 tags:
 - voting
