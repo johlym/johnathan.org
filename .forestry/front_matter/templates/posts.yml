@@ -33,6 +33,7 @@ fields:
   name: tags
   label: Tags
 pages:
+- _posts/interview-with-an-old-person.md
 - _posts/2018-08-13-the-blockchain-voting-shenanigans-continue.md
 - _posts/2018-05-30-the-static-site-book.md
 - _posts/2018-05-08-easy-redirect-links-within-jekyll.md
