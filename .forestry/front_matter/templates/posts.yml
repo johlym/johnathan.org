@@ -33,7 +33,7 @@ fields:
   name: tags
   label: Tags
 pages:
-- _posts/the-blockchain-voting-shenanigans-continue.md
+- _posts/2018-08-13-the-blockchain-voting-shenanigans-continue.md
 - _posts/2018-05-30-the-static-site-book.md
 - _posts/2018-05-08-easy-redirect-links-within-jekyll.md
 - _posts/2018-05-07-an-auto-deploying-static-site-with-backend.md
