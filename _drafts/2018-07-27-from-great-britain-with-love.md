@@ -1,20 +1,22 @@
 ---
 title: From Great Britain With Love
-date: 2018-07-27 10:00 -0700
+date: 2018-07-27 00:00:00 +0000
 author: Johnathan Lyman
 layout: post
 permalink: "/2018/07/great-britain.html"
 categories:
-  - Travel
+- Travel
 tags:
-  - england
-  - scotland
-  - great britain
-  - travel
+- england
+- scotland
+- great britain
+- travel
 excerpt: Two weeks in a beautiful land.
-opening: "We're spending a couple weeks in Great Britain, the land mass that makes up Scotland, England, and Wales and two thirds of The United Kingdom. While we're out here, a plethora of tourist attractions are being checked off the list."
----
+opening: We're spending a couple weeks in Great Britain, the land mass that makes
+  up Scotland, England, and Wales and two thirds of The United Kingdom. While we're
+  out here, a plethora of tourist attractions are being checked off the list.
 
+---
 We're spending a couple weeks in Great Britain, the land mass that makes up Scotland, England, and Wales and two thirds of The United Kingdom. While we're out here, a plethora of tourist attractions are being checked off the list. 
 
 ## Part 1: Edinburgh, Scotland
