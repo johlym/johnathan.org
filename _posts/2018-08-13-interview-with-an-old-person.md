@@ -6,7 +6,8 @@ excerpt: Love this.
 image: ''
 category:
 - Interviews
-tags: []
+tags:
+- linked
 
 ---
 By way of [One Foot Tsunami](https://onefoottsunami.com/), I came across [this Slate article](https://slate.com/human-interest/2018/08/interview-with-an-old-person-eleanor-tom-jaynes-91-on-living-in-hawaii-during-pearl-harbor.html). Slate sits down with 91-year-old Eleanor Tom Jaynes.
